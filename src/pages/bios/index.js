@@ -1,7 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
+import { kebabCase } from 'lodash'
 import Layout from '../../components/Layout'
+import Img from 'gatsby-image'
 
 export default class BiosPage extends React.Component {
   render() {
@@ -21,27 +23,32 @@ export default class BiosPage extends React.Component {
                 style={{ border: '1px solid #333', padding: '2em 4em' }}
                 key={post.id}
               >
-                <p>
-                  <Link className="has-text-primary" to={post.fields.slug}>
-                    {post.frontmatter.name}
-                  </Link>
-                  <span> &bull; </span>
-                  <small>{post.frontmatter.publishDate}</small>
-                </p>
                 <div className="columns">
                   <div className="column is-one-fifth">
                     <Link
                       to={post.fields.slug}
-                      className="image thumbnail"
+                      //className="image thumbnail"
                       title={post.frontmatter.name + ' at the makers'}
                     >
-                      <img
-                        src={post.frontmatter.image1}
-                        alt={post.frontmatter.name + ' at the makers'}
+                      <Img
+                        fluid={post.frontmatter.image1.childImageSharp.fluid}
                       />
                     </Link>
                   </div>
                   <div className="column ">
+                    <h3>
+                      <p>
+                        <Link
+                          className="has-text-primary"
+                          to={post.fields.slug}
+                        >
+                          {post.frontmatter.name}
+                        </Link>
+                        <span> &bull; </span>
+                        <small>{post.frontmatter.publishDate}</small>
+                      </p>
+                    </h3>
+                    <h5>{post.frontmatter.description}</h5>
                     <p>
                       {post.excerpt}
                       <br />
@@ -50,6 +57,18 @@ export default class BiosPage extends React.Component {
                         Keep Reading →
                       </Link>
                     </p>
+                    {post.frontmatter.tags && post.frontmatter.tags.length ? (
+                      <div>
+                        <h4>Tags</h4>
+                        <ul className="taglist">
+                          {post.frontmatter.tags.map(tag => (
+                            <li key={tag + `tag`}>
+                              <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    ) : null}
                   </div>
                 </div>
               </div>
@@ -72,7 +91,7 @@ BiosPage.propTypes = {
 export const pageQuery = graphql`
   query BioQuery {
     allMarkdownRemark(
-      sort: { order: DESC, fields: [frontmatter___publishDate] }
+      sort: { order: DESC, fields: [frontmatter___date] }
       filter: { frontmatter: { templateKey: { eq: "bio-post" } } }
     ) {
       edges {
@@ -85,8 +104,18 @@ export const pageQuery = graphql`
           frontmatter {
             name
             templateKey
-            image1
+            description
+            image1 {
+              ... on File {
+                childImageSharp {
+                  fluid(maxWidth: 200) {
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+              }
+            }
             publishDate(formatString: "MMMM DD, YYYY")
+            tags
           }
         }
       }
