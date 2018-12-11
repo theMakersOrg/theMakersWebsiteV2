@@ -93,9 +93,19 @@ export const pageQuery = graphql`
       id
       html
       frontmatter {
-        publishDate(formatString: "MMMM DD, YYYY")
         name
+        templateKey
         description
+        image1 {
+          ... on File {
+            childImageSharp {
+              fluid(maxWidth: 200) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
+        publishDate(formatString: "MMMM DD, YYYY")
         tags
       }
     }
