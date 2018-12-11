@@ -10,7 +10,7 @@ tags:
   - RaspberryPi
   - PixelLEDS
 ---
-\##Kurt Schoenhoff - :)
+## Kurt Schoenhoff - :)
 
 ![flavor wheel](/img/flavor_wheel.jpg)
 
