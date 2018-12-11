@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: features/AddingMakerBios
+  branch: feature/AddingMakerBios
 
 media_folder: static/img
 public_folder: /img
