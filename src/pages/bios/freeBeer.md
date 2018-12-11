@@ -1,6 +1,6 @@
 ---
 templateKey: bio-post
-name: Free Beer
+makerName: Free Beer
 publishDate: 2018-12-11T15:04:10.000Z
 description: 'Thirsty work...'
 image1: /img/KurtSchoenhoffBio.jpg
