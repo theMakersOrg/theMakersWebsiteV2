@@ -28,7 +28,7 @@ collections:
     label: 'Bio'
     folder: 'src/pages/bios'
     create: true
-    slug: '{{slug}}'
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     fields:
       - {
           label: 'Template Key',
