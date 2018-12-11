@@ -30,6 +30,7 @@ collections:
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     format: 'frontmatter'
+    identifier_field: makerName
     fields:
       - {
           label: 'Template Key',
