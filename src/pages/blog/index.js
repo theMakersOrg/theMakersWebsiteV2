@@ -54,7 +54,7 @@ BlogsPage.propTypes = {
 }
 
 export const pageQuery = graphql`
-  query BlogsQuery {
+  query BlogQuery {
     allMarkdownRemark(
       sort: { order: DESC, fields: [frontmatter___date] }
       filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
