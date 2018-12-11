@@ -72,7 +72,7 @@ BiosPage.propTypes = {
 export const pageQuery = graphql`
   query BioQuery {
     allMarkdownRemark(
-      sort: { order: DESC, fields: [frontmatter___date] }
+      sort: { order: DESC, fields: [frontmatter___publishDate] }
       filter: { frontmatter: { templateKey: { eq: "bio-post" } } }
     ) {
       edges {
