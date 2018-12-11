@@ -65,7 +65,7 @@ const BioPost = ({ data }) => {
         description={post.frontmatter.description}
         helmet={
           <Helmet titleTemplate="%s | Bio">
-            <title>{`${post.frontmatter.name}`}</title>
+            <title>{`${post.frontmatter.makerName}`}</title>
             <meta
               name="description"
               content={`${post.frontmatter.description}`}
@@ -73,7 +73,7 @@ const BioPost = ({ data }) => {
           </Helmet>
         }
         tags={post.frontmatter.tags}
-        title={post.frontmatter.name}
+        title={post.frontmatter.makerName}
       />
     </Layout>
   )
@@ -93,7 +93,7 @@ export const pageQuery = graphql`
       id
       html
       frontmatter {
-        name
+        makerName
         templateKey
         description
         image1 {

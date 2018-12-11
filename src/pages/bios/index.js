@@ -28,7 +28,7 @@ export default class BiosPage extends React.Component {
                     <Link
                       to={post.fields.slug}
                       //className="image thumbnail"
-                      title={post.frontmatter.name + ' at the makers'}
+                      title={post.frontmatter.makerName + ' at the makers'}
                     >
                       <Img
                         fluid={post.frontmatter.image1.childImageSharp.fluid}
@@ -42,7 +42,7 @@ export default class BiosPage extends React.Component {
                           className="has-text-primary"
                           to={post.fields.slug}
                         >
-                          {post.frontmatter.name}
+                          {post.frontmatter.makerName}
                         </Link>
                         <span> &bull; </span>
                         <small>{post.frontmatter.publishDate}</small>
@@ -102,7 +102,7 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
-            name
+            makerName
             templateKey
             description
             image1 {

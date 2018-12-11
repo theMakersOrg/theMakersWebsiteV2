@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: master
+  branch: feature/BiosUsingExtensionOrFormat
 
 media_folder: static/img
 public_folder: /img
@@ -29,6 +29,8 @@ collections:
     folder: 'src/pages/bios'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    format: 'frontmatter'
+    identifier_field: makerName
     fields:
       - {
           label: 'Template Key',
@@ -36,7 +38,7 @@ collections:
           widget: 'hidden',
           default: 'bio-post',
         }
-      - { label: 'Name', name: 'name', widget: 'string' }
+      - { label: 'Maker Name', name: 'makerName', widget: 'string' }
       - { label: 'Publish Date', name: 'publishDate', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'text' }
       - { label: 'image', name: 'image1', widget: 'image' }
