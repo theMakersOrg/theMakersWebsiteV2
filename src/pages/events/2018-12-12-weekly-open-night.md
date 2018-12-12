@@ -14,9 +14,10 @@ tags:
   - 3dprinting
   - ''
 ---
-\## Participate in one of our Thursday nights all you need to do is turn up!
 
-\### Open to the public at 5:30pm - till late...
+## Participate in one of our Thursday nights all you need to do is turn up!
+
+### Open to the public at 5:30pm - till late...
 
 We will give you a tour of the facilties and you will most likely get to see some makers is their natural habitat. We usually pass the hat around at some stage and order pizza to fuel the engines. Once you have signed in ( feel free to add you email if you want to join out slack channel or create@themakers.org).
 
