@@ -2,7 +2,7 @@
 templateKey: event-post
 name: Christmas Party
 eventDate: 2018-12-21T15:04:10.000Z
-description: 'Help us celebrate an amazing year at theMakers.org!!!'
+description: Help us celebrate an amazing year at theMakers.org!!!
 image1: /img/happyRobot.jpg
 tags:
   - Celebrate
@@ -10,7 +10,6 @@ tags:
   - Event
   - Beer
 ---
-
 ## Lets Party!!
 
 ### Where: Hemmingways
@@ -20,6 +19,8 @@ tags:
 ### Who: Everyone is invited!!
 
 _hemmingways image here_
+
+![Hemmingways brewery](/img/hemmingways.jpg "Hemmingways Brewery")
 
 Come one come all to the end of the year celebration!!
 
