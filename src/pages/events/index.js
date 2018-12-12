@@ -80,7 +80,7 @@ export default class EventsPage extends React.Component {
   }
 }
 
-BiosPage.propTypes = {
+EventsPage.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.array

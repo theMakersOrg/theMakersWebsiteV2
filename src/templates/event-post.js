@@ -6,7 +6,7 @@ import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 
-export const BioPostTemplate = ({
+export const EventPostTemplate = ({
   content,
   contentComponent,
   description,
@@ -46,7 +46,7 @@ export const BioPostTemplate = ({
   )
 }
 
-BioPostTemplate.propTypes = {
+EventPostTemplate.propTypes = {
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
   description: PropTypes.string,
@@ -54,7 +54,7 @@ BioPostTemplate.propTypes = {
   helmet: PropTypes.object
 }
 
-const BioPost = ({ data }) => {
+const EventPost = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
@@ -79,7 +79,7 @@ const BioPost = ({ data }) => {
   )
 }
 
-BioPost.propTypes = {
+EventPost.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.object
   })
