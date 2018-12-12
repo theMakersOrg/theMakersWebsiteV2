@@ -45,26 +45,26 @@ collections:
       - { label: 'Body', name: 'body', widget: 'markdown' }
       - { label: 'Tags', name: 'tags', widget: 'list' }
 
-    - name: 'event'
-      label: 'Event'
-      folder: 'src/pages/events'
-      create: true
-      slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-      format: 'frontmatter'
-      identifier_field: name
-      fields:
-        - {
-            label: 'Template Key',
-            name: 'templateKey',
-            widget: 'hidden',
-            default: 'event-post',
-          }
-        - { label: 'Event Name', name: 'name', widget: 'string' }
-        - { label: 'Event Date', name: 'eventDate', widget: 'datetime' }
-        - { label: 'Description', name: 'description', widget: 'text' }
-        - { label: 'image', name: 'image1', widget: 'image' }
-        - { label: 'Body', name: 'body', widget: 'markdown' }
-        - { label: 'Tags', name: 'tags', widget: 'list' }
+  - name: 'event'
+    label: 'Event'
+    folder: 'src/pages/events'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    format: 'frontmatter'
+    identifier_field: name
+    fields:
+      - {
+          label: 'Template Key',
+          name: 'templateKey',
+          widget: 'hidden',
+          default: 'event-post',
+        }
+      - { label: 'Event Name', name: 'name', widget: 'string' }
+      - { label: 'Event Date', name: 'eventDate', widget: 'datetime' }
+      - { label: 'Description', name: 'description', widget: 'text' }
+      - { label: 'image', name: 'image1', widget: 'image' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Tags', name: 'tags', widget: 'list' }
 
   - name: 'pages'
     label: 'Pages'
