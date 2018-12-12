@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: feature/events
+  branch: feature/staticContent
 
 media_folder: static/img
 public_folder: /img
