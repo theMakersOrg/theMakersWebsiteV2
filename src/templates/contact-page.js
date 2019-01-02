@@ -30,7 +30,7 @@ export const ContactPageTemplate = ({
                 {title}
               </h2>
               <div
-                className="full-width-image-container margin-top-0"
+                className="column is-half"
                 style={{
                   backgroundImage: `url(${
                     !!location.image.childImageSharp
@@ -39,8 +39,19 @@ export const ContactPageTemplate = ({
                   })`
                 }}
               />
+              <div className="column is-half">
+                <p>{location.address}</p>
+                <p>{location.description}</p>
+              </div>
             </div>
-            <div className="section" />
+            <div className="section">
+              <ul>
+                <li>Facebook: {electronic.facebook}</li>
+                <li>Email: {electronic.email}</li>
+                <li>Phone: {electronic.phone}</li>
+                <li>GitHub: {electronic.github}</li>
+              </ul>
+            </div>
             <div className="section">
               <PageContent className="content" content={content} />
             </div>
