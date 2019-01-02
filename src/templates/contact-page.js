@@ -30,7 +30,7 @@ export const ContactPageTemplate = ({
                 {title}
               </h2>
               <div
-                className="half-width-image-container margin-top-0"
+                className="full-width-image-container margin-top-0"
                 style={{
                   backgroundImage: `url(${
                     !!location.image.childImageSharp
