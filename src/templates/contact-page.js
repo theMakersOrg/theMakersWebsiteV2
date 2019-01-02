@@ -11,7 +11,13 @@ function encode(data) {
     .join('&')
 }
 
-export const ContactPageTemplate = ({ title, content, contentComponent }) => {
+export const ContactPageTemplate = ({
+  title,
+  content,
+  contentComponent,
+  location,
+  electronic
+}) => {
   const PageContent = contentComponent || Content
 
   return (
@@ -23,6 +29,19 @@ export const ContactPageTemplate = ({ title, content, contentComponent }) => {
               <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
                 {title}
               </h2>
+              <div
+                className="half-width-image-container margin-top-0"
+                style={{
+                  backgroundImage: `url(${
+                    !!location.image.childImageSharp
+                      ? location.image.childImageSharp.fluid.src
+                      : location.image
+                  })`
+                }}
+              />
+            </div>
+            <div className="section" />
+            <div className="section">
               <PageContent className="content" content={content} />
             </div>
           </div>
@@ -81,6 +100,8 @@ export default class ContactPage extends React.Component {
           contentComponent={HTMLContent}
           title={data.markdownRemark.frontmatter.title}
           content={data.markdownRemark.html}
+          location={data.markdownRemark.frontmatter.location}
+          electronic={data.markdownRemark.frontmatter.electronic}
         />
 
         <section className="section">
@@ -195,6 +216,13 @@ export const ContactPageQuery = graphql`
               }
             }
           }
+          description
+        }
+        electronic {
+          facebook
+          email
+          phone
+          github
         }
       }
     }

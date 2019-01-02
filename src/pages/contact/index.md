@@ -10,7 +10,7 @@ location:
 electronic:
   facebook: https://www.facebook.com/groups/Makaz/
   email: create@themakers.org
-  phone: 0417715264
+  phone: '0417715264'
   github: https://github.com/theMakersOrg/
 ---
 
