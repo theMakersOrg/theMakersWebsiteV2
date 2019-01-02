@@ -184,6 +184,18 @@ export const ContactPageQuery = graphql`
       html
       frontmatter {
         title
+        location {
+          address
+          image {
+            ... on File {
+              childImageSharp {
+                fluid(maxWidth: 200) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+        }
       }
     }
   }
