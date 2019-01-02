@@ -46,10 +46,17 @@ export const ContactPageTemplate = ({
             </div>
             <div className="section">
               <ul>
-                <li>Facebook: {electronic.facebook}</li>
-                <li>Email: {electronic.email}</li>
+                <li>
+                  Facebook:{' '}
+                  <a href={electronic.facebook}>{electronic.facebook}</a>
+                </li>
+                <li>
+                  Email: <a href={electronic.email}>{electronic.email}</a>
+                </li>
                 <li>Phone: {electronic.phone}</li>
-                <li>GitHub: {electronic.github}</li>
+                <li>
+                  GitHub: <a href={electronic.github}>{electronic.github}</a>
+                </li>
               </ul>
             </div>
             <div className="section">
