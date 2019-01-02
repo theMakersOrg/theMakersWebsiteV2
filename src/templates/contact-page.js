@@ -29,19 +29,19 @@ export const ContactPageTemplate = ({
               <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
                 {title}
               </h2>
-              <div
-                className="column is-half"
-                style={{
-                  backgroundImage: `url(${
-                    !!location.image.childImageSharp
-                      ? location.image.childImageSharp.fluid.src
-                      : location.image
-                  })`
-                }}
-              />
-              <div className="column is-half">
-                <p>{location.address}</p>
-                <p>{location.description}</p>
+              <div className="columns">
+                <div
+                  className="column is-half"
+                  style={{
+                    backgroundImage: `url(${
+                      location.image.childImageSharp.fluid.src
+                    })`
+                  }}
+                />
+                <div className="column">
+                  <p>{location.address}</p>
+                  <p>{location.description}</p>
+                </div>
               </div>
             </div>
             <div className="section">
