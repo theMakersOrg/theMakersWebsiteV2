@@ -217,7 +217,7 @@ export const ContactPageQuery = graphql`
           image {
             ... on File {
               childImageSharp {
-                fluid(maxWidth: 200) {
+                fluid(maxWidth: 600) {
                   ...GatsbyImageSharpFluid
                 }
               }
