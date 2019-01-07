@@ -108,12 +108,6 @@ export default class ContactPage extends React.Component {
     return (
       ///////////////////////////////////////////
       <Layout>
-        <section className="section">
-          <div className="container">
-            <h2>Hello bitches(B4)</h2>
-          </div>
-        </section>
-
         <ContactPageTemplate
           contentComponent={HTMLContent}
           title={data.markdownRemark.frontmatter.title}
@@ -122,11 +116,6 @@ export default class ContactPage extends React.Component {
           electronic={data.markdownRemark.frontmatter.electronic}
         />
 
-        <section className="section">
-          <div className="container">
-            <h2>Hello bitches(after)</h2>
-          </div>
-        </section>
         <section className="section">
           <div className="container">
             <div className="content">
@@ -228,7 +217,7 @@ export const ContactPageQuery = graphql`
           image {
             ... on File {
               childImageSharp {
-                fluid(maxWidth: 2048) {
+                fluid(maxWidth: 200) {
                   ...GatsbyImageSharpFluid
                 }
               }
