@@ -24,14 +24,16 @@ export const BioPostTemplate = ({
       <div className="container content">
         <div className="columns">
           <div className="column is-10 is-offset-1">
-            <div className="column is-one-fifth">
-              <Img fluid={image.childImageSharp.fluid} />
-            </div>
-            <div className="column">
-              <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-                {title}
-              </h1>
-              <p>{description}</p>
+            <div className="columns">
+              <div className="column is-one-fifth">
+                <Img fluid={image.childImageSharp.fluid} />
+              </div>
+              <div className="column">
+                <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
+                  {title}
+                </h1>
+                <p>{description}</p>
+              </div>
             </div>
             <PostContent content={content} />
             {tags && tags.length ? (
