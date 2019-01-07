@@ -69,7 +69,9 @@ export const ContactPageTemplate = ({
 ContactPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
-  contentComponent: PropTypes.func
+  contentComponent: PropTypes.func,
+  location: PropTypes.object,
+  electronic: PropTypes.object
 }
 
 export default class ContactPage extends React.Component {

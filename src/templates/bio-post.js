@@ -12,7 +12,8 @@ export const BioPostTemplate = ({
   description,
   tags,
   title,
-  helmet
+  helmet,
+  image
 }) => {
   const PostContent = contentComponent || Content
 
@@ -22,10 +23,15 @@ export const BioPostTemplate = ({
       <div className="container content">
         <div className="columns">
           <div className="column is-10 is-offset-1">
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-              {title}
-            </h1>
-            <p>{description}</p>
+            <div className="column is-one-fifth">
+              <Img fluid={image.childImageSharp.fluid} />
+            </div>
+            <div className="column">
+              <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
+                {title}
+              </h1>
+              <p>{description}</p>
+            </div>
             <PostContent content={content} />
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
@@ -51,7 +57,8 @@ BioPostTemplate.propTypes = {
   contentComponent: PropTypes.func,
   description: PropTypes.string,
   title: PropTypes.string,
-  helmet: PropTypes.object
+  helmet: PropTypes.object,
+  image: PropTypes.image
 }
 
 const BioPost = ({ data }) => {
@@ -74,6 +81,7 @@ const BioPost = ({ data }) => {
         }
         tags={post.frontmatter.tags}
         title={post.frontmatter.makerName}
+        image={post.frontmatter.image1}
       />
     </Layout>
   )
