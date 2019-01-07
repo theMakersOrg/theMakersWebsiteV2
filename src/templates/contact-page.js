@@ -4,6 +4,7 @@ import { navigate } from 'gatsby-link'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
+import Img from 'gatsby-image'
 
 function encode(data) {
   return Object.keys(data)
@@ -30,14 +31,10 @@ export const ContactPageTemplate = ({
                 {title}
               </h2>
               <div className="columns">
-                <div
-                  className="column is-half"
-                  style={{
-                    backgroundImage: `url(${
-                      location.image.childImageSharp.fluid.src
-                    })`
-                  }}
-                />
+                <div className="column is-half">
+                  <Img fluid={location.image.childImageSharp.fluid} />
+                </div>
+
                 <div className="column">
                   <p>{location.address}</p>
                   <p>{location.description}</p>
