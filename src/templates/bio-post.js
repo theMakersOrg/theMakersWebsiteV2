@@ -25,7 +25,7 @@ export const BioPostTemplate = ({
         <div className="columns">
           <div className="column is-10 is-offset-1">
             <div className="columns">
-              <div className="column is-one-fifth">
+              <div className="column is-one-quarter">
                 <Img fluid={image.childImageSharp.fluid} />
               </div>
               <div className="column">
