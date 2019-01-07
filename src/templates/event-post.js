@@ -5,6 +5,7 @@ import Helmet from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
+import Img from 'gatsby-image'
 
 export const EventPostTemplate = ({
   content,
@@ -12,7 +13,8 @@ export const EventPostTemplate = ({
   description,
   tags,
   title,
-  helmet
+  helmet,
+  image
 }) => {
   const PostContent = contentComponent || Content
 
@@ -22,10 +24,17 @@ export const EventPostTemplate = ({
       <div className="container content">
         <div className="columns">
           <div className="column is-10 is-offset-1">
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-              {title}
-            </h1>
-            <p>{description}</p>
+            <div className="columns">
+              <div className="column is-one-quarter">
+                <Img fluid={image.childImageSharp.fluid} />
+              </div>
+              <div className="column">
+                <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
+                  {title}
+                </h1>
+                <p>{description}</p>
+              </div>
+            </div>
             <PostContent content={content} />
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
@@ -51,7 +60,8 @@ EventPostTemplate.propTypes = {
   contentComponent: PropTypes.func,
   description: PropTypes.string,
   title: PropTypes.string,
-  helmet: PropTypes.object
+  helmet: PropTypes.object,
+  image: PropTypes.image
 }
 
 const EventPost = ({ data }) => {
@@ -74,6 +84,7 @@ const EventPost = ({ data }) => {
         }
         tags={post.frontmatter.tags}
         title={post.frontmatter.name}
+        image={post.frontmatter.image1}
       />
     </Layout>
   )

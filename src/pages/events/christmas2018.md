@@ -10,6 +10,7 @@ tags:
   - Event
   - Beer
 ---
+
 ## Lets Party!!
 
 ### Where: Hemmingways
@@ -18,9 +19,7 @@ tags:
 
 ### Who: Everyone is invited!!
 
-_hemmingways image here_
-
-![Hemmingways brewery](/img/hemmingways.jpg "Hemmingways Brewery")
+![Hemmingways brewery](/img/hemmingways.jpg 'Hemmingways Brewery')
 
 Come one come all to the end of the year celebration!!
 
