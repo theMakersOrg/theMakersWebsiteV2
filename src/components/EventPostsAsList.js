@@ -6,10 +6,10 @@ import Img from 'gatsby-image'
 export default () => (
   <StaticQuery
     query={graphql`
-      query BioQuery {
+      query EventQuery {
         allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___date] }
-          filter: { frontmatter: { templateKey: { eq: "bio-post" } } }
+          filter: { frontmatter: { templateKey: { eq: "event-post" } } }
         ) {
           edges {
             node {
@@ -19,7 +19,7 @@ export default () => (
                 slug
               }
               frontmatter {
-                makerName
+                name
                 templateKey
                 description
                 image1 {
@@ -31,7 +31,7 @@ export default () => (
                     }
                   }
                 }
-                publishDate(formatString: "MMMM DD, YYYY")
+                eventDate(formatString: "MMMM DD, YYYY")
                 tags
               }
             }
@@ -40,7 +40,7 @@ export default () => (
       }
     `}
     render={data => (
-      <blogpostsaslist>
+      <eventpostsaslist>
         {data.allMarkdownRemark.edges.map(({ node: post }) => (
           <div
             className="content"
@@ -52,7 +52,7 @@ export default () => (
                 <Link
                   to={post.fields.slug}
                   //className="image thumbnail"
-                  title={post.frontmatter.makerName + ' at the makers'}
+                  title={post.frontmatter.name + ' at the makers'}
                 >
                   <Img fluid={post.frontmatter.image1.childImageSharp.fluid} />
                 </Link>
@@ -61,10 +61,10 @@ export default () => (
                 <h3>
                   <p>
                     <Link className="has-text-primary" to={post.fields.slug}>
-                      {post.frontmatter.makerName}
+                      {post.frontmatter.name}
                     </Link>
                     <span> &bull; </span>
-                    <small>{post.frontmatter.publishDate}</small>
+                    <small>{post.frontmatter.eventDate}</small>
                   </p>
                 </h3>
                 <h5>{post.frontmatter.description}</h5>
@@ -92,7 +92,7 @@ export default () => (
             </div>
           </div>
         ))}
-      </blogpostsaslist>
+      </eventpostsaslist>
     )}
   />
 )
