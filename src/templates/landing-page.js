@@ -109,7 +109,7 @@ export const LandingPageTemplate = ({
 )
 
 LandingPageTemplate.propTypes = {
-  image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+  image: PropTypes.image,
   title: PropTypes.string,
   heading: PropTypes.string,
   description: PropTypes.string,
@@ -164,86 +164,100 @@ LandingPage.propTypes = {
 export default LandingPage
 
 export const landingPageQuery = graphql`
-  query LandingPage($id: String!) {
-    markdownRemark(id: { eq: $id }) {
-      frontmatter {
-        title
-        image {
-          childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
+  query LandingPage {
+    allMarkdownRemark(
+      sort: { order: DESC, fields: [frontmatter___date] }
+      filter: { frontmatter: { templateKey: { eq: "landing-page" } } }
+    ) {
+      edges {
+        node {
+          excerpt(pruneLength: 400)
+          id
+          fields {
+            slug
           }
-        }
-        heading
-        description
-        intro {
-          blurbs {
+          frontmatter {
+            title
             image {
-              childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
-                  ...GatsbyImageSharpFluid
+              ... on File {
+                childImageSharp {
+                  fluid(maxWidth: 2048, quality: 100) {
+                    ...GatsbyImageSharpFluid
+                  }
                 }
               }
             }
-            text
-          }
-          heading
-          description
-        }
-        main {
-          heading
-          description
-          image1 {
-            alt
-            image {
-              childImageSharp {
-                fluid(maxWidth: 526, quality: 92) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
-          image2 {
-            alt
-            image {
-              childImageSharp {
-                fluid(maxWidth: 526, quality: 92) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
-          image3 {
-            alt
-            image {
-              childImageSharp {
-                fluid(maxWidth: 1075, quality: 72) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
-        }
-        testimonials {
-          author
-          quote
-        }
-        full_image {
-          childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-        pricing {
-          heading
-          description
-          plans {
+            heading
             description
-            items
-            plan
-            price
+            intro {
+              blurbs {
+                image {
+                  childImageSharp {
+                    fluid(maxWidth: 240, quality: 64) {
+                      ...GatsbyImageSharpFluid
+                    }
+                  }
+                }
+                text
+              }
+              heading
+              description
+            }
+            main {
+              heading
+              description
+              image1 {
+                alt
+                image {
+                  childImageSharp {
+                    fluid(maxWidth: 526, quality: 92) {
+                      ...GatsbyImageSharpFluid
+                    }
+                  }
+                }
+              }
+              image2 {
+                alt
+                image {
+                  childImageSharp {
+                    fluid(maxWidth: 526, quality: 92) {
+                      ...GatsbyImageSharpFluid
+                    }
+                  }
+                }
+              }
+              image3 {
+                alt
+                image {
+                  childImageSharp {
+                    fluid(maxWidth: 1075, quality: 72) {
+                      ...GatsbyImageSharpFluid
+                    }
+                  }
+                }
+              }
+            }
+            testimonials {
+              author
+              quote
+            }
+            full_image {
+              childImageSharp {
+                fluid(maxWidth: 2048, quality: 100) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+            pricing {
+              heading
+              description
+              plans {
+                description
+                items
+                plan
+                price
+              }
+            }
           }
         }
       }
