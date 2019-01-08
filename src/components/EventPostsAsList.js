@@ -8,7 +8,7 @@ export default () => (
     query={graphql`
       query EventQuery {
         allMarkdownRemark(
-          sort: { order: DESC, fields: [frontmatter___date] }
+          sort: { order: DESC, fields: [frontmatter___eventDate] }
           filter: { frontmatter: { templateKey: { eq: "event-post" } } }
         ) {
           edges {
