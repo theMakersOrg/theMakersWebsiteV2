@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: feature/staticContent
+  branch: feature/LandingPAge
 
 media_folder: static/img
 public_folder: /img
