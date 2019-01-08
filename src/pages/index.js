@@ -39,8 +39,8 @@ const IndexPageTemplate = ({
                 <h2
                   className="has-text-weight-bold is-size-1"
                   style={{
-                    boxShadow: '0.5rem 0 0 $primary-invert, -0.5rem 0 0 $primary-invert',
-                    backgroundColor: '$primary-invert',
+                    boxShadow: '0.5rem 0 0 #21abe3, -0.5rem 0 0 #21abe3',
+                    backgroundColor: '#21abe3',
                     color: 'white',
                     padding: '1rem'
                   }}
