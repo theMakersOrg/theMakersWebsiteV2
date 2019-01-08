@@ -27,7 +27,7 @@ intro:
         have a project or would simply like to chat with people in the field
         drop in for a cuppa! 
 
-    - image: /img/Icon_Blue_Art.png
+    - image: /img/Icon_Red_Art.png
       heading: Be Creative
       text: >
         We are not just all tech nerds here! Many of our members are exploring 
@@ -35,13 +35,160 @@ intro:
         and expertise complimentarty to creating. Some simply come for the room
         to work, others enjoy the cross polination of ideas, technology and 
         experience. 
-    - image: /img/Icon_Red_CNC.png
+    - image: /img/Icon_Blue_CNC.png
       heading: CNC Router / Mill
       text: >
         We have a 2.2Kw (spindle) CNC 2.5D mill (router) table that is capable of 
         soft materials such as wood, plastics, etc all the way to aluminium and 
         some of the softer grades of steel. The table fits a 1/4 standard sheet 
         of plywood, with the ability to process longer materials in a partitioned 
+        manner.
+    - image: /img/Icon_Blue_Community.png
+      heading: Community
+      text: >
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+    - image: /img/Icon_Red_Cosplay.png
+      heading: Cosplay
+      text: >
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        manner.
+    - image: /img/Icon_Red_Electronics.png
+      heading: Electronics
+      text: >
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+    - image: /img/Icon_Blue_Hand_Tools.png
+      heading: Hand Tools
+      text: >
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        manner.
+    - image: /img/Icon_Blue_IoT.png
+      heading: IoT
+      text: >
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+    - image: /img/Icon_Red_Laser_Cutter.png
+      heading: Laser Cutter
+      text: >
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        manner.
+    - image: /img/Icon_Red_Lathe.png
+      heading: Lathe
+      text: >
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+    - image: /img/Icon_Blue_Oscilloscope.png
+      heading: Oscilloscope
+      text: >
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        manner.
+    - image: /img/Icon_Blue_Power_Tools.png
+      heading: Power Tools
+      text: >
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+    - image: /img/Icon_Red_Recycle.png
+      heading: Recycling
+      text: >
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        manner.
+    - image: /img/Icon_Red_Robot.png
+      heading: Robotics
+      text: >
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+    - image: /img/Icon_Blue_Sewing.png
+      heading: Sewing
+      text: >
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        manner.
+    - image: /img/Icon_Blue_Soldering.png
+      heading: Soldering / PCB manufacture
+      text: >
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+    - image: /img/Icon_Red_Vinyl_Cutter.png
+      heading: Vinyl Cutter / Plotter
+      text: >
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
         manner.
   heading: What we offer
   description: >
