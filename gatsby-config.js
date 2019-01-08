@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'theMakers.org - Smart Community, shared resources',
-    description: 'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
+    description: 'TheMakers.org is a Not-For-Profit Maker Space Located in Cairns, QLD, that strives to give the community access to cutting edge technology, resources and know-how.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
