@@ -137,7 +137,7 @@ const LandingPage = ({ data }) => {
 
   return (
     <Layout>
-      {JSON.stringify(frontmatter)}
+      {JSON.stringify(frontmatter.image)}
       {/* <LandingPageTemplate
         image={frontmatter.image}
         title={frontmatter.title}
