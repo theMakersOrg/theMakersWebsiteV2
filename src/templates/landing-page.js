@@ -7,7 +7,7 @@ import Testimonials from '../components/Testimonials'
 import Pricing from '../components/Pricing'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
-export const ProductPageTemplate = ({
+export const LandingPageTemplate = ({
   image,
   title,
   heading,
@@ -26,13 +26,13 @@ export const ProductPageTemplate = ({
             <div className="content">
               <div
                 className="full-width-image-container margin-top-0"
-                style={{
-                  backgroundImage: `url(${
-                    !!image.childImageSharp
-                      ? image.childImageSharp.fluid.src
-                      : image
-                  })`
-                }}
+                // style={{
+                //   backgroundImage: `url(${
+                //     !!image.childImageSharp
+                //       ? image.childImageSharp.fluid.src
+                //       : image
+                //   })`
+                // }}
               >
                 <h2
                   className="has-text-weight-bold is-size-1"
@@ -87,13 +87,13 @@ export const ProductPageTemplate = ({
               <Testimonials testimonials={testimonials} />
               <div
                 className="full-width-image-container"
-                style={{
-                  backgroundImage: `url(${
-                    fullImage.childImageSharp
-                      ? fullImage.childImageSharp.fluid.src
-                      : fullImage
-                  })`
-                }}
+                // style={{
+                //   backgroundImage: `url(${
+                //     fullImage.childImageSharp
+                //       ? fullImage.childImageSharp.fluid.src
+                //       : fullImage
+                //   })`
+                // }}
               />
               <h2 className="has-text-weight-semibold is-size-2">
                 {pricing.heading}
@@ -108,7 +108,7 @@ export const ProductPageTemplate = ({
   </section>
 )
 
-ProductPageTemplate.propTypes = {
+LandingPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
   heading: PropTypes.string,
@@ -132,12 +132,13 @@ ProductPageTemplate.propTypes = {
   })
 }
 
-const ProductPage = ({ data }) => {
+const LandingPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark
 
   return (
     <Layout>
-      <ProductPageTemplate
+      {JSON.stringify(data)}
+      <LandingPageTemplate
         image={frontmatter.image}
         title={frontmatter.title}
         heading={frontmatter.heading}
@@ -152,7 +153,7 @@ const ProductPage = ({ data }) => {
   )
 }
 
-ProductPage.propTypes = {
+LandingPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
       frontmatter: PropTypes.object
@@ -160,10 +161,10 @@ ProductPage.propTypes = {
   })
 }
 
-export default ProductPage
+export default LandingPage
 
-export const productPageQuery = graphql`
-  query ProductPage($id: String!) {
+export const landingPageQuery = graphql`
+  query LandingPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title
