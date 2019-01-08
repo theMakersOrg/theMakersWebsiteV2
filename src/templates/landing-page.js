@@ -26,13 +26,13 @@ export const LandingPageTemplate = ({
             <div className="content">
               <div
                 className="full-width-image-container margin-top-0"
-                // style={{
-                //   backgroundImage: `url(${
-                //     !!image.childImageSharp
-                //       ? image.childImageSharp.fluid.src
-                //       : image
-                //   })`
-                // }}
+                style={{
+                  backgroundImage: `url(${
+                    !!image.childImageSharp
+                      ? image.childImageSharp.fluid.src
+                      : image
+                  })`
+                }}
               >
                 <h2
                   className="has-text-weight-bold is-size-1"
@@ -87,13 +87,13 @@ export const LandingPageTemplate = ({
               <Testimonials testimonials={testimonials} />
               <div
                 className="full-width-image-container"
-                // style={{
-                //   backgroundImage: `url(${
-                //     fullImage.childImageSharp
-                //       ? fullImage.childImageSharp.fluid.src
-                //       : fullImage
-                //   })`
-                // }}
+                style={{
+                  backgroundImage: `url(${
+                    fullImage.childImageSharp
+                      ? fullImage.childImageSharp.fluid.src
+                      : fullImage
+                  })`
+                }}
               />
               <h2 className="has-text-weight-semibold is-size-2">
                 {pricing.heading}
@@ -137,7 +137,7 @@ const LandingPage = ({ data }) => {
 
   return (
     <Layout>
-      {JSON.stringify(data)}
+      {/* {JSON.stringify(data)} */}
       <LandingPageTemplate
         image={frontmatter.image}
         title={frontmatter.title}
