@@ -133,12 +133,12 @@ LandingPageTemplate.propTypes = {
 }
 
 const LandingPage = ({ data }) => {
-  const { frontmatter } = data.allMarkdownRemark.edges.node.frontmatter
+  const { frontmatter } = data.allMarkdownRemark.edges
 
   return (
     <Layout>
-      {JSON.stringify(data)}
-      <LandingPageTemplate
+      {JSON.stringify(frontmatter)}
+      {/* <LandingPageTemplate
         image={frontmatter.image}
         title={frontmatter.title}
         heading={frontmatter.heading}
@@ -148,7 +148,7 @@ const LandingPage = ({ data }) => {
         testimonials={frontmatter.testimonials}
         fullImage={frontmatter.full_image}
         pricing={frontmatter.pricing}
-      />
+      /> */}
     </Layout>
   )
 }
