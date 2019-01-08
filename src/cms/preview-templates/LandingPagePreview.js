@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { LandingPageTemplate } from '../../templates/landing-page'
 
-const LAndingPagePreview = ({ entry, getAsset }) => {
+const LandingPagePreview = ({ entry, getAsset }) => {
   const entryBlurbs = entry.getIn(['data', 'intro', 'blurbs'])
   const blurbs = entryBlurbs ? entryBlurbs.toJS() : []
 
@@ -53,4 +53,4 @@ LandingPagePreview.propTypes = {
   getAsset: PropTypes.func
 }
 
-export default LandingtPagePreview
+export default LandingPagePreview
