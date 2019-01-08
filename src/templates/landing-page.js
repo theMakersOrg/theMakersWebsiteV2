@@ -199,6 +199,7 @@ export const landingPageQuery = graphql`
                   }
                 }
                 text
+                heading
               }
               heading
               description

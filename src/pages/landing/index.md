@@ -1,43 +1,48 @@
 ---
 templateKey: 'landing-page'
 path: /landing
-title: Our Coffee
+title: Your Makerspace
 image: /img/jumbotron.jpg
 heading: What we offer
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  TheMakers.org is a Not-For-Profit Maker Space that strives to give the community access to cutting edge technology, resources and know-how. If you dont have the space, equipment, or knowledge to persue your dreams or simply complete a project, perhaps we can help. 
+  Every Thursday evening we open our doors to the public and welcome anyone and everyone to join us. Come see what all the fuss is about.
 intro:
   blurbs:
     - image: /img/Icon_Blue_3d-printer.png
+      heading: 3D Printer
       text: >
-        We sell rubbish and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
+        One of the most recognised form of advanced manufacturing is the humble 
+        3D printer, We have a variety of printers that are capable of printing 
+        build sizes in excess of 340mm x 340mm x as long as you want (Blackbelt 3D)
+        Or if resolution is your thing our Peopoly laser SLA (resin) 3D printer 
+        is cabable of as little as 5 micron layer heights is a build volume of 
+        130mm x 130mm x 180mm. We also have some real experts in the area who 
+        can help you. 
     - image: /img/Icon_Red_AI.png
+      heading: AI and Machine Learning
       text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
+        We have some powerfull machines with some of the latest hardware dedicated 
+        to the fields of machine learning and artificial intelligence. If you 
+        have a project or would simply like to chat with people in the field
+        drop in for a cuppa! 
+
     - image: /img/Icon_Blue_Art.png
+      heading: Be Creative
       text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
+        We are not just all tech nerds here! Many of our members are exploring 
+        their creative sides and find the workspace and availability of tools 
+        and expertise complimentarty to creating. Some simply come for the room
+        to work, others enjoy the cross polination of ideas, technology and 
+        experience. 
     - image: /img/Icon_Red_CNC.png
+      heading: CNC Router / Mill
       text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
+        We have a 2.2Kw (spindle) CNC 2.5D mill (router) table that is capable of 
+        soft materials such as wood, plastics, etc all the way to aluminium and 
+        some of the softer grades of steel. The table fits a 1/4 standard sheet 
+        of plywood, with the ability to process longer materials in a partitioned 
+        manner.
   heading: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their
