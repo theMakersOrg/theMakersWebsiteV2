@@ -74,7 +74,7 @@ intro:
         Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
         Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
         Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-    - image: /img/Icon_Blue_Hand_Tools.png
+    - image: /img/Icon_Blue_hand_tools.png
       heading: Hand Tools
       text: >
         Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
@@ -127,7 +127,7 @@ intro:
         Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
         Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
         manner.
-    - image: /img/Icon_Blue_Power_Tools.png
+    - image: /img/Icon_Blue_power_tools.png
       heading: Power Tools
       text: >
         Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
@@ -169,7 +169,7 @@ intro:
         Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
         Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
         manner.
-    - image: /img/Icon_Blue_Soldering.png
+    - image: /img/Icon_Blue_soldering.png
       heading: Soldering / PCB manufacture
       text: >
         Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
@@ -179,7 +179,7 @@ intro:
         Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
         Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
         Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-    - image: /img/Icon_Red_Vinyl_Cutter.png
+    - image: /img/Icon_Red_vinyl_cutter.png
       heading: Vinyl Cutter / Plotter
       text: >
         Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
