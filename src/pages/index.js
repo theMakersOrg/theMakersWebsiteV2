@@ -22,6 +22,7 @@ const IndexPageTemplate = ({
   <section className="section section--gradient">
     <div className="container">
       <div className="section">
+        <Hero />
         <div className="columns">
           <div className="column is-10 is-offset-1">
             <div className="content">
