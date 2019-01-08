@@ -14,7 +14,7 @@ const FeatureGrid = ({ gridItems }) => (
                 display: 'inline-block',
               }}
             >
-            <h3 classname="has-text-grey-dark">
+            <h3 classname="has-text-grey">
               {item.heading}
             </h3>
               <PreviewCompatibleImage imageInfo={item} />

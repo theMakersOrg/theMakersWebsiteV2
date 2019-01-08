@@ -70,7 +70,7 @@ const IndexPageTemplate = ({
                   <div className="tile">
                     <div className="tile is-parent is-vertical">
                       <article className="tile is-child">
-                        <PreviewCompatibleImage imageInfo={main.image1} />
+                        <PreviewCompatibleImage imageInfo={main.image3} />
                       </article>
                     </div>
                     <div className="tile is-parent">
@@ -81,7 +81,7 @@ const IndexPageTemplate = ({
                   </div>
                   <div className="tile is-parent">
                     <article className="tile is-child">
-                      <PreviewCompatibleImage imageInfo={main.image3} />
+                      <PreviewCompatibleImage imageInfo={main.image1} />
                     </article>
                   </div>
                 </div>
