@@ -133,7 +133,7 @@ LandingPageTemplate.propTypes = {
 }
 
 const LandingPage = ({ data }) => {
-  const { frontmatter } = data.allMarkdownRemark.edges
+  const { frontmatter } = data.allMarkdownRemark.edges[0].node
 
   return (
     <Layout>
