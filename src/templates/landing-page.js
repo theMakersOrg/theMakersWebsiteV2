@@ -133,7 +133,7 @@ LandingPageTemplate.propTypes = {
 }
 
 const LandingPage = ({ data }) => {
-  const { frontmatter } = data.markdownRemark
+  // const { frontmatter } = data.markdownRemark
 
   return (
     <Layout>
