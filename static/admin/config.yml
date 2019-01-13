@@ -124,7 +124,19 @@ collections:
               fields:
                 [
                   { label: Heading, name: heading, widget: string },
-                  { label: Description, name: description, widget: text },
+                  {
+                    label: Description,
+                    name: description,
+                    widget: object,
+                    fields:
+                      [
+                        { label: P1, name: p1, widget: string },
+                        { label: P2, name: p2, widget: string },
+                        { label: P3, name: p3, widget: string },
+                        { label: P4, name: p4, widget: string },
+                        { label: P5, name: p5, widget: string },
+                      ],
+                  },
                   {
                     label: Blurbs,
                     name: blurbs,
