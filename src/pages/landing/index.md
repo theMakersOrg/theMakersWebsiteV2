@@ -3,9 +3,10 @@ templateKey: 'landing-page'
 path: /landing
 title: Your Makerspace
 image: /img/jumbotron.jpg
-heading: What we offer
+heading: What are we?
 description: >-
   TheMakers.org is a Not-For-Profit Maker Space that strives to give the community access to cutting edge technology, resources and know-how. If you dont have the space, equipment, or knowledge to persue your dreams or simply complete a project, perhaps we can help. 
+
   Every Thursday evening we open our doors to the public and welcome anyone and everyone to join us. Come see what all the fuss is about.
 intro:
   blurbs:
@@ -18,7 +19,7 @@ intro:
         Or if resolution is your thing our Peopoly laser SLA (resin) 3D printer 
         is cabable of as little as 5 micron layer heights is a build volume of 
         130mm x 130mm x 180mm. We also have some real experts in the area who 
-        can help you. 
+        can help you.
     - image: /img/Icon_Red_AI.png
       heading: AI and Machine Learning
       text: >
@@ -34,7 +35,7 @@ intro:
         their creative sides and find the workspace and availability of tools 
         and expertise complimentarty to creating. Some simply come for the room
         to work, others enjoy the cross polination of ideas, technology and 
-        experience. 
+        experience.
     - image: /img/Icon_Blue_CNC.png
       heading: CNC Router / Mill
       text: >
@@ -192,10 +193,28 @@ intro:
         manner.
   heading: What we offer
   description: >
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
+    p1: >
+    TheMakers.org is Cairns only dedicated makerspace, we have a range of advanced 
+    manufacturing equipment available for use, such as Laser cutters, CNC machines, 
+    specialised 3D printers, etc. 
+    p2: >
+    Every Thursday "Open Night" - come along and get a tour of the facilities and 
+    meet some of our local makers. Starts at 5:30pm and goes until late. Feel free to 
+    bring a project as this is a hands on event. 
+    p3: >
+    We can offer training in how to prepare digital files for use on this equipment
+    and can get you started using them is a safe and practial way, whether you are 
+    an engineer or an artist we can get you up and running.
+    p4: >
+    The heart of the makerspace is the people, the skills, experience and willingness
+    to share is what our community is all about. Whether you want to learn something 
+    new or are looking for some local expertise to help complete a project we can help.
+    p5: >
+    If you are looking to bring a new idea or product to market we have a range of 
+    equipment and skills that can get you across the line. Some of the services available 
+    include app/website building, electronics design and manufacture, product design and 
+    prototyping. 
+
 main:
   heading: Great coffee with no compromises
   description: >
@@ -204,13 +223,13 @@ main:
     journey. We personally visit each farm to make sure the conditions are
     optimal for the plants, farmers and the local environment.
   image1:
-    alt: A close-up of a paper filter filled with ground coffee
+    alt: Giant butterflies manufactured with a combination of laser cutter and 3D printer.
     image: /img/products-grid3.jpg
   image2:
-    alt: A green cup of a coffee on a wooden table
+    alt: Resin based SLA 3D Printer
     image: /img/products-grid2.jpg
   image3:
-    alt: Coffee beans
+    alt: CNC Router
     image: /img/products-grid1.jpg
 testimonials:
   - author: Elisabeth Kaurismäki
@@ -223,31 +242,33 @@ testimonials:
       stance on empowering farmers and transparency.
 full_image: /img/products-full-width.png
 pricing:
-  heading: Monthly subscriptions
+  heading: How can I get Involved?
   description: >-
-    We make it easy to make great coffee a part of your life. Choose one of our
-    monthly subscription plans to receive great coffee at your doorstep each
-    month. Contact us about more details and payment info.
+    Whether you just would like to pop in from time to time, have a project to complete,
+    or are a 9-5 maker. We can suit you. Access outside of open nights and special events
+    requires a small fee to help us keep the doors open...
   plans:
-    - description: Perfect for the drinker who likes to enjoy 1-2 cups per day.
+    - description: Perfect for the social maker and checking out what we have to offer
       items:
-        - 3 lbs of coffee per month
-        - Green or roasted beans"
-        - One or two varieties of beans"
-      plan: Small
-      price: '50'
-    - description: 'Great for avid drinkers, java-loving couples and bigger crowds'
+        - Open Nights
+        - Special events that are open to the public
+      plan: Thursdays (Open nights) and special events.
+      price: 'Free - donations are appreciated'
+    - description: Great for special projects and getting used to the space
       items:
-        - 6 lbs of coffee per month
-        - Green or roasted beans
-        - Up to 4 different varieties of beans
-      plan: Big
-      price: '80'
-    - description: Want a few tiny batches from different varieties? Try our custom plan
+        - Free access outside of open nights
+        - Free accesss to most equipment(currently all are free. :) )
+        - Ability to store some items onsite
+        - Ability to create a "Maker Bio" on the website.
+      plan: Subscriber
+      price: '25 per month'
+    - description: For the dedicated maker.
       items:
         - Whatever you need
-        - Green or roasted beans
+        - All subscriber capabilties
+        - Be a rigistered member of the association(voting rights etc)
+        - Run workshops from the premesis
         - Unlimited varieties
-      plan: Custom
-      price: '??'
+      plan: Membership
+      price: '300 per year'
 ---

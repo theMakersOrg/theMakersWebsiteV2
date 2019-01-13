@@ -60,6 +60,14 @@ const IndexPageTemplate = ({
               <div className="columns">
                 <div className="column is-7">
                   <h3 className="has-text-weight-semibold is-size-3">
+                    {intro.heading}
+                  </h3>
+                  <p>{intro.description.p1}</p>
+                </div>
+              </div>
+              <div className="columns">
+                <div className="column is-7">
+                  <h3 className="has-text-weight-semibold is-size-3">
                     {main.heading}
                   </h3>
                   <p>{main.description}</p>
@@ -191,7 +199,13 @@ export const pageQuery = graphql`
               }
             }
             heading
-            description
+            description {
+              p1
+              p2
+              p3
+              p4
+              p5
+            }
             intro {
               blurbs {
                 image {
