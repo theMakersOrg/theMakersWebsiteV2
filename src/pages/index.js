@@ -63,6 +63,10 @@ const IndexPageTemplate = ({
                     {intro.heading}
                   </h3>
                   <p>{intro.description.p1}</p>
+                  <p>{intro.description.p2}</p>
+                  <p>{intro.description.p3}</p>
+                  <p>{intro.description.p4}</p>
+                  <p>{intro.description.p5}</p>
                 </div>
               </div>
               <div className="columns">

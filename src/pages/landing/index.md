@@ -47,45 +47,31 @@ intro:
     - image: /img/Icon_Blue_Community.png
       heading: Community
       text: >
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Community is at the heart of what we do, whether it is advice, experience,
+        or just coversations with like minded individuals, a sense of community is key.
+        Here at theMakers.org we pride ourselves on how keen we are to share and ensure 
+        the sum of our parts is far greater that the sum of the individual qualities.
     - image: /img/Icon_Red_Cosplay.png
       heading: Cosplay
       text: >
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        manner.
+        We have a variety of members that really enjoy this form of artisitic expression 
+        and creativity so we decided to mention it explicity. Whether a seasoned artist or 
+        a novice creator we are sure you will find someone or something here that will help
+        you create.
     - image: /img/Icon_Red_Electronics.png
       heading: Electronics
       text: >
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Multiple soldering Irons, SMD rework hot air gun, Oscilloscopes, the list goes on...
+        We really love electronics, if your into Arduino, Raspberry Pi's, sensors you will
+        certainly love the facilities and talent we have. We can even help you develop circuit
+        boards and even manufacture prototypes onsite, or provide this as a service.
     - image: /img/Icon_Blue_hand_tools.png
       heading: Hand Tools
       text: >
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        manner.
+        No makerspace would be complete without a variety of hand tools to 
+        compliment the more advanced manufacturing equipment. Including screwdrivers, 
+        socket sets, pliers, hammers, chisels, levels, rulers, saws, etc. Covering 
+        working with metal, plastics, and timber
     - image: /img/Icon_Blue_IoT.png
       heading: IoT
       text: >
