@@ -199,13 +199,7 @@ export const pageQuery = graphql`
               }
             }
             heading
-            description {
-              p1
-              p2
-              p3
-              p4
-              p5
-            }
+            description
             intro {
               blurbs {
                 image {
@@ -219,7 +213,13 @@ export const pageQuery = graphql`
                 heading
               }
               heading
-              description
+              description {
+                p1
+                p2
+                p3
+                p4
+                p5
+              }
             }
             main {
               heading
