@@ -192,7 +192,7 @@ intro:
         Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
         manner.
   heading: What we offer
-  description: 
+  description: >
     p1: >
     TheMakers.org is Cairns only dedicated makerspace, we have a range of advanced 
     manufacturing equipment available for use, such as Laser cutters, CNC machines, 
