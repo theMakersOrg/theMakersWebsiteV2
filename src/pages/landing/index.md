@@ -192,28 +192,28 @@ intro:
         Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
         manner.
   heading: What we offer
-  description: >
+  description:
     p1: >
-    TheMakers.org is Cairns only dedicated makerspace, we have a range of advanced 
-    manufacturing equipment available for use, such as Laser cutters, CNC machines, 
-    specialised 3D printers, etc. 
+      TheMakers.org is Cairns only dedicated makerspace, we have a range of advanced 
+      manufacturing equipment available for use, such as Laser cutters, CNC machines, 
+      specialised 3D printers, etc.
     p2: >
-    Every Thursday "Open Night" - come along and get a tour of the facilities and 
-    meet some of our local makers. Starts at 5:30pm and goes until late. Feel free to 
-    bring a project as this is a hands on event. 
-    p3: >
-    We can offer training in how to prepare digital files for use on this equipment
-    and can get you started using them is a safe and practial way, whether you are 
-    an engineer or an artist we can get you up and running.
-    p4: >
-    The heart of the makerspace is the people, the skills, experience and willingness
-    to share is what our community is all about. Whether you want to learn something 
-    new or are looking for some local expertise to help complete a project we can help.
-    p5: >
-    If you are looking to bring a new idea or product to market we have a range of 
-    equipment and skills that can get you across the line. Some of the services available 
-    include app/website building, electronics design and manufacture, product design and 
-    prototyping. 
+      'Every Thursday "Open Night" - come along and get a tour of the facilities and 
+      meet some of our local makers. Starts at 5:30pm and goes until late. Feel free to 
+      bring a project as this is a hands on event. '
+    p3:
+      We can offer training in how to prepare digital files for use on this equipment
+      and can get you started using them is a safe and practial way, whether you are
+      an engineer or an artist we can get you up and running.
+    p4:
+      The heart of the makerspace is the people, the skills, experience and willingness
+      to share is what our community is all about. Whether you want to learn something
+      new or are looking for some local expertise to help complete a project we can help.
+    p5:
+      If you are looking to bring a new idea or product to market we have a range of
+      equipment and skills that can get you across the line. Some of the services available
+      include app/website building, electronics design and manufacture, product design and
+      prototyping.
 
 main:
   heading: Great coffee with no compromises
