@@ -2,7 +2,7 @@
 templateKey: bio-post
 makerName: Free Beer
 publishDate: 2018-12-11T15:04:10.000Z
-description: 'Thirsty work...'
+description: Thirsty work...
 image1: /img/KurtSchoenhoffBio.jpg
 tags:
   - Hops
@@ -10,7 +10,6 @@ tags:
   - Yeast
   - Good Times
 ---
-
 ## Free Beer - :)
 
 Sutler execution dock galleon chantey fluke starboard lateen sail trysail Sea Legs dance the hempen jig. Spyglass yawl Sea Legs transom barque lookout draught cable red ensign plunder. Trysail dead men tell no tales fathom warp league Jack Tar jury mast piracy spirits prow.
@@ -18,6 +17,10 @@ Sutler execution dock galleon chantey fluke starboard lateen sail trysail Sea Le
 Draught barkadeer nipper careen Jack Ketch gangway log coxswain Pirate Round hands. Blimey Spanish Main galleon Yellow Jack chase measured fer yer chains scurvy code of conduct rutters killick. Jack Tar poop deck Yellow Jack lass come about list tackle matey spike Jack Ketch.
 
 Come about transom loaded to the gunwalls coxswain spanker trysail heave to list quarterdeck nipper. Gabion spyglass chase guns skysail gaff code of conduct lanyard bowsprit Cat o'nine tails reef. Scurvy sheet coffer hardtack tender bucko bounty loot fire in the hole weigh anchor.
+
+
+
+![things](/img/cnc.jpg "stuff")
 
 ## What the "law of the Ocean" mean to you?
 
