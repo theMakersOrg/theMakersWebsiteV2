@@ -202,7 +202,13 @@ export const landingPageQuery = graphql`
                 heading
               }
               heading
-              description
+              description {
+                p1
+                p2
+                p3
+                p4
+                p5
+              }
             }
             main {
               heading
