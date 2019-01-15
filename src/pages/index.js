@@ -69,6 +69,14 @@ const IndexPageTemplate = ({
                   <p>{intro.description.p5}</p>
                 </div>
               </div>
+              <div className="columns is-centered">
+                <div className="column ">
+                  <h3 className="has-text-weight-semibold is-size-3">
+                    Sponsors
+                  </h3>
+                  <p>Please support our sponsors, they support us. :)</p>
+                </div>
+              </div>
               <div className="columns">
                 <div className="column is-7">
                   <h3 className="has-text-weight-semibold is-size-3">
