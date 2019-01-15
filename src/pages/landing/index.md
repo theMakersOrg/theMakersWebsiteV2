@@ -142,12 +142,10 @@ intro:
       prototyping.
 
 main:
-  heading: Great coffee with no compromises
+  heading: Great community, great resources
   description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
+    We pride ourselves on our great community, its aour biggest asset!
+    That’s why we’re always open to meeting more people to share what we have built with. Come see what all the fuss is about.
   image1:
     alt: Giant butterflies manufactured with a combination of laser cutter and 3D printer.
     image: /img/products-grid3.jpg
