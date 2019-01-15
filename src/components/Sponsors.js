@@ -11,7 +11,7 @@ const SponsorGrid = ({ gridItems, heading, description }) => (
         {gridItems.map(item => (
           <div key={item.heading} className="column is-4">
             <section className="section">
-              <a href={item.link}>
+              <a href={item.link} target="_blank">
                 <div className="has-text-centered">
                   <div
                     style={{
@@ -21,7 +21,6 @@ const SponsorGrid = ({ gridItems, heading, description }) => (
                   >
                     <h3 classname="has-text-grey">{item.heading}</h3>
                     <PreviewCompatibleImage imageInfo={item} />
-                    <p>{item.link}</p>
                   </div>
                 </div>
               </a>
