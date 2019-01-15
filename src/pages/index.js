@@ -18,7 +18,8 @@ const IndexPageTemplate = ({
   main,
   testimonials,
   fullImage,
-  pricing
+  pricing,
+  sponsor
 }) => (
   <section className="section section--gradient">
     <div className="container">
@@ -58,7 +59,7 @@ const IndexPageTemplate = ({
                 </div>
               </div>
               <Features gridItems={intro.blurbs} />
-              <div className="columns is-centered has-background-grey-lighter">
+              <div className="columns is-centered has-background-white-ter">
                 <div className="column is-10 ">
                   <h3 className="has-text-weight-semibold is-size-3 bd-notification is-primary">
                     {intro.heading}
@@ -70,7 +71,11 @@ const IndexPageTemplate = ({
                   <p>{intro.description.p5}</p>
                 </div>
               </div>
-              <Sponsors gridItems={intro.blurbs} />
+              <Sponsors
+                gridItems={sponsor.sponsors}
+                heading={sponsor.heading}
+                description={sponsor.description}
+              />
               <div className="columns">
                 <div className="column is-7">
                   <h3 className="has-text-weight-semibold is-size-3">
@@ -142,6 +147,7 @@ export default class IndexPage extends React.Component {
           testimonials={frontmatter.testimonials}
           fullImage={frontmatter.full_image}
           pricing={frontmatter.pricing}
+          sponsor={frontmatter.sponsor}
         />
       </Layout>
     )
@@ -225,6 +231,21 @@ export const pageQuery = graphql`
                 p3
                 p4
                 p5
+              }
+            }
+            sponsor {
+              heading
+              description
+              sponsors {
+                image {
+                  childImageSharp {
+                    fluid(maxWidth: 120, quality: 64) {
+                      ...GatsbyImageSharpFluid
+                    }
+                  }
+                }
+                heading
+                link
               }
             }
             main {

@@ -158,24 +158,27 @@ main:
     alt: CNC Router
     image: /img/products-grid1.jpg
 
-Sponsor:
+sponsor:
+  heading: Sponsors
+  description: Please support our sponsors, they support us. :)
   sponsors:
-    - image: /img/Icon_Blue_3d-printer.png
-      heading: 3D Printer
-      link:
-    - image: /img/Icon_Red_AI.png
-      heading: AI and Machine Learning
-      link:
+    - image: /img/aussie-broadband.png
+      heading: Aussie broadband
+      link: https://aussiebroadband.com.au/
+    - image: /img/NASAustralia.png
+      heading: NAS
+      link: https://nasaustralia.com.au/
+    - image: /img/nqmakersupplies.png
+      heading: NQ Maker Supplies
+      link: https://nqmakersupplies.com.au/
 
 testimonials:
-  - author: Elisabeth Kaurismäki
+  - author: Kurt Schoenhoff
     quote: >-
-      The first time I tried Kaldi’s coffee, I couldn’t even believe that was
-      the same thing I’ve been drinking every morning.
-  - author: Philipp Trommler
+      Having given up on finding a community of makers in Cairns I was supprised in the best way ever once I came across theMakers.org. Instantly I knew I was home!
+  - author: Someone Else
     quote: >-
-      Kaldi is the place to go if you want the best quality coffee. I love their
-      stance on empowering farmers and transparency.
+      I didnt know what a makerspace was, a frient recommended them and I am so glad they did. I am so regularly at open nights I dont know what else I would do on a Thurday evening. :)
 full_image: /img/products-full-width.png
 pricing:
   heading: How can I get Involved?

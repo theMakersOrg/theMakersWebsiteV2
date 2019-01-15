@@ -2,14 +2,14 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
-const SponsorGrid = ({ gridItems }) => (
+const SponsorGrid = ({ gridItems, heading, description }) => (
   <div className="columns is-centered">
     <div className="column ">
-      <h3 className="has-text-weight-semibold is-size-3">Sponsors</h3>
-      <p>Please support our sponsors, they support us. :)</p>
+      <h3 className="has-text-weight-semibold is-size-3">{heading}</h3>
+      <p>{description}</p>
       <div className="columns is-multiline">
         {gridItems.map(item => (
-          <div key={item.text} className="column is-3">
+          <div key={item.heading} className="column is-3">
             <section className="section">
               <div className="has-text-centered">
                 <div
@@ -20,9 +20,9 @@ const SponsorGrid = ({ gridItems }) => (
                 >
                   <h3 classname="has-text-grey">{item.heading}</h3>
                   <PreviewCompatibleImage imageInfo={item} />
+                  <p>item.link</p>
                 </div>
               </div>
-              <p>{item.text}</p>
             </section>
           </div>
         ))}
