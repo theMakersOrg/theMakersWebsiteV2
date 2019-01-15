@@ -57,8 +57,8 @@ const IndexPageTemplate = ({
                 </div>
               </div>
               <Features gridItems={intro.blurbs} />
-              <div className="columns">
-                <div className="column is-7">
+              <div className="columns is-vcentered">
+                <div className="column is-7 has-background-grey-lighter">
                   <h3 className="has-text-weight-semibold is-size-3">
                     {intro.heading}
                   </h3>
