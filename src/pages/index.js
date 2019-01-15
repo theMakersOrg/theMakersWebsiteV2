@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
+import ReactModal from 'react-modal'
+import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Hero from '../components/Hero'
 import Features from '../components/Features'
@@ -134,6 +135,23 @@ const IndexPageTemplate = ({
 )
 
 export default class IndexPage extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      isModalOpen: false
+    }
+  }
+
+  handleModalOpen = event => {
+    // console.log('handleModalOpen: ', event);
+    this.setState({ isModalOpen: true })
+  }
+
+  handleModalClose = event => {
+    // console.log('handleModalOpen: ', event);
+    this.setState({ isModalOpen: false })
+  }
+
   render() {
     const { data } = this.props
     const { frontmatter } = data.allMarkdownRemark.edges[0].node
@@ -141,6 +159,9 @@ export default class IndexPage extends React.Component {
     return (
       <Layout>
         {/* {JSON.stringify(frontmatter.image)} */}
+        <Link to="#" onClick={this.handleModalOpen}>
+          Donate Now
+        </Link>
         <IndexPageTemplate
           image={frontmatter.image}
           title={frontmatter.title}
@@ -153,6 +174,14 @@ export default class IndexPage extends React.Component {
           pricing={frontmatter.pricing}
           sponsor={frontmatter.sponsor}
         />
+        <ReactModal
+          isOpen={this.state.isModalOpen}
+          onRequestClose={this.handleModalClose}
+          contentLabel="Example Modal In Gatsby"
+        >
+          <h2>Donate</h2>
+          <button onClick={this.handleModalClose}>Close Modal</button>
+        </ReactModal>
       </Layout>
     )
   }
