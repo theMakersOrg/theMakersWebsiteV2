@@ -9,18 +9,18 @@ const SponsorGrid = ({ gridItems, heading, description }) => (
       <p>{description}</p>
       <div className="columns is-multiline">
         {gridItems.map(item => (
-          <div key={item.heading} className="column is-3">
+          <div key={item.heading} className="column is-4">
             <section className="section">
               <div className="has-text-centered">
                 <div
                   style={{
-                    width: '120px',
+                    width: '160px',
                     display: 'inline-block'
                   }}
                 >
                   <h3 classname="has-text-grey">{item.heading}</h3>
                   <PreviewCompatibleImage imageInfo={item} />
-                  <p>item.link</p>
+                  <p>{item.link}</p>
                 </div>
               </div>
             </section>

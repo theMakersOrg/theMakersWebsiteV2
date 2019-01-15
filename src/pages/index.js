@@ -52,7 +52,7 @@ const IndexPageTemplate = ({
               </div>
               <div className="columns">
                 <div className="column is-7">
-                  <h3 className="has-text-weight-semibold is-size-2">
+                  <h3 className="has-text-weight-semibold is-size-3 is-secondary ">
                     {heading}
                   </h3>
                   <p>{description}</p>
@@ -61,7 +61,7 @@ const IndexPageTemplate = ({
               <Features gridItems={intro.blurbs} />
               <div className="columns is-centered has-background-white-ter">
                 <div className="column is-10 ">
-                  <h3 className="has-text-weight-semibold is-size-3 bd-notification is-primary">
+                  <h3 className="has-text-weight-semibold is-size-2 is-primary">
                     {intro.heading}
                   </h3>
                   <p>{intro.description.p1}</p>
