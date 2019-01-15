@@ -152,6 +152,13 @@ export default class IndexPage extends React.Component {
     this.setState({ isModalOpen: false })
   }
 
+  modalTimer = setTimeout(
+    function() {
+      this.setState({ isModalOpen: true })
+    }.bind(this),
+    3000
+  )
+
   render() {
     const { data } = this.props
     const { frontmatter } = data.allMarkdownRemark.edges[0].node
@@ -160,7 +167,7 @@ export default class IndexPage extends React.Component {
       <Layout>
         {/* {JSON.stringify(frontmatter.image)} */}
         <Link to="#" onClick={this.handleModalOpen}>
-          Donate Now
+          Open Modal
         </Link>
         <IndexPageTemplate
           image={frontmatter.image}
@@ -178,9 +185,21 @@ export default class IndexPage extends React.Component {
           isOpen={this.state.isModalOpen}
           onRequestClose={this.handleModalClose}
           contentLabel="Example Modal In Gatsby"
+          style={{
+            overlay: {
+              backgroundColor: 'lightblue'
+            },
+            content: {
+              backgroundColor: 'lightgray'
+            }
+          }}
         >
-          <h2>Donate</h2>
-          <button onClick={this.handleModalClose}>Close Modal</button>
+          <div className="container">
+            <div className="section">
+              <h2>Example modal stuff and things</h2>
+              <button onClick={this.handleModalClose}>Close Modal</button>
+            </div>
+          </div>
         </ReactModal>
       </Layout>
     )
