@@ -69,114 +69,54 @@ intro:
       heading: Hand Tools
       text: >
         No makerspace would be complete without a variety of hand tools to 
-        compliment the more advanced manufacturing equipment. Including screwdrivers, 
+        compliment the more advanced manufacturing equipment. Including screwdrivers,
         socket sets, pliers, hammers, chisels, levels, rulers, saws, etc. Covering 
         working with metal, plastics, and timber
     - image: /img/Icon_Blue_IoT.png
       heading: IoT
       text: >
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Everybody loves to talk about IoT but what is it really? We have a few makers that have worked in the field and have a strong understanding of
+        the current state of the art. Well versed with LPWAN technologies all the way to displaying the data and gaining insight from it. We also host a "Things network" LORAWAN access point and fully support community driven as well as private/commercial projects.
     - image: /img/Icon_Red_Laser_Cutter.png
       heading: Laser Cutter
       text: >
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        manner.
+        We love our laser cutter! Such a versatile and quick method of custom manufacturing. Our laser cutter is capable of approx 1500x900 cutting area. We also have attachments for working with cylindrical / rotational cutting and etching. most natural materials, plactics and fabrics are able to be processed, come have a chat to us if you have something in mind and we can help select materials etc, to ensure you get the product you want!
     - image: /img/Icon_Red_Lathe.png
       heading: Lathe
       text: >
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Our metal lathe / mill combo is a pretty versatile machine that allows a manual processing of metals and plastics. We have a resonably small but capable set of tools and accessories that make this the go-to tool form many types of material processing.
     - image: /img/Icon_Blue_Oscilloscope.png
       heading: Oscilloscope
       text: >
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        manner.
+        When working with electronics or anything electrical the Oscilloscope is what really shows you what is going on. Most electronics give us little visual cues as to what is taking place in a circuit, this invaluable tool is great for diagnosing electronic faults and learning more about what is acually happening in circuit. We have both a CRO and a DSO available for use.
     - image: /img/Icon_Blue_power_tools.png
       heading: Power Tools
       text: >
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        Drills, routers, saws, grinders, sanders, polishers, etc,. the list goes on and on... We have onsite a fairly comprehensive range of powered tools
+        that make working with most materials a breeze. There is always a "right" tool for the job so dont let your project suffer needlessly let you skills shine. We also love to help people who are a little less confident but looking to learn.
     - image: /img/Icon_Red_Recycle.png
       heading: Recycling
       text: >
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        manner.
+        We are firm believers of a recyling / reusing mindset and enjoy rebelling against the idea of a throw away society. We are currently working on a number of plastic recycling and processing ideas and projects and are actively looking for more people to help in this area.
     - image: /img/Icon_Red_Robot.png
       heading: Robotics
       text: >
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        All hail our robotic overlords! Long live the robots! We do not fear a robot uprising, in fact we love the potential that this areas has instore for our future. Come create and learn in this exciting field and help create a better future for yourself and human kind, whilst having a great time doing it.
     - image: /img/Icon_Blue_Sewing.png
       heading: Sewing
       text: >
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        manner.
+        We have some industrial sewing machines and overlockers that are great for all sorts of work including canvas and leather. Large areas to lay out material, why not even try using the Laser cutter to cut out your pattern 
+        or a 3D printer to add some embelishments. Dont hold back your creativity
+        and make something beautiful today!
     - image: /img/Icon_Blue_soldering.png
       heading: Soldering / PCB manufacture
       text: >
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+        From simple soldering some wires together, to SMD pcb work we have a variety of tools that make this process much more simple and give your project a professional look. We also have many years experience creating circuit boards and working with custom electronics. Our inhouse capabilities can create SMD boards with a soldermask perfect for prototypes and one offs.
     - image: /img/Icon_Red_vinyl_cutter.png
       heading: Vinyl Cutter / Plotter
       text: >
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-        manner.
+        Why not put a sticker on it! We have a vinyl cutter capable of 600m wide rolls that loves being used. We have used this machine with great success to 
+        pimp up our space ( you cant miss it!). If you are looking to make a sign for your business, garage sale or even you car we have the know how and the tech! Also great for creating decals in the shower or on a feature wall.
   heading: What we offer
   description:
     p1: >
