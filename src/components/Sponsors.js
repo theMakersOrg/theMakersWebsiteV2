@@ -3,12 +3,11 @@ import PropTypes from 'prop-types'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 const SponsorGrid = ({ gridItems }) => (
-  <div className="columns is-multiline">
-    <div className="columns is-centered">
-      <div className="column ">
-        <h3 className="has-text-weight-semibold is-size-3">Sponsors</h3>
-        <p>Please support our sponsors, they support us. :)</p>
-
+  <div className="columns is-centered">
+    <div className="column ">
+      <h3 className="has-text-weight-semibold is-size-3">Sponsors</h3>
+      <p>Please support our sponsors, they support us. :)</p>
+      <div className="columns is-multiline">
         {gridItems.map(item => (
           <div key={item.text} className="column is-3">
             <section className="section">

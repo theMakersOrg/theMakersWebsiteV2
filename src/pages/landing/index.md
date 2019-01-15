@@ -157,6 +157,16 @@ main:
   image3:
     alt: CNC Router
     image: /img/products-grid1.jpg
+
+Sponsor:
+  sponsors:
+    - image: /img/Icon_Blue_3d-printer.png
+      heading: 3D Printer
+      link:
+    - image: /img/Icon_Red_AI.png
+      heading: AI and Machine Learning
+      link:
+
 testimonials:
   - author: Elisabeth Kaurismäki
     quote: >-
