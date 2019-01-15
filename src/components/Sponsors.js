@@ -11,18 +11,20 @@ const SponsorGrid = ({ gridItems, heading, description }) => (
         {gridItems.map(item => (
           <div key={item.heading} className="column is-4">
             <section className="section">
-              <div className="has-text-centered">
-                <div
-                  style={{
-                    width: '160px',
-                    display: 'inline-block'
-                  }}
-                >
-                  <h3 classname="has-text-grey">{item.heading}</h3>
-                  <PreviewCompatibleImage imageInfo={item} />
-                  <p>{item.link}</p>
+              <a href={item.link}>
+                <div className="has-text-centered">
+                  <div
+                    style={{
+                      width: '160px',
+                      display: 'inline-block'
+                    }}
+                  >
+                    <h3 classname="has-text-grey">{item.heading}</h3>
+                    <PreviewCompatibleImage imageInfo={item} />
+                    <p>{item.link}</p>
+                  </div>
                 </div>
-              </div>
+              </a>
             </section>
           </div>
         ))}
