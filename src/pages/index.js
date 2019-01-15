@@ -59,23 +59,27 @@ const IndexPageTemplate = ({
                 </div>
               </div>
               <Features gridItems={intro.blurbs} />
-              <div className="columns is-centered has-background-white-ter">
-                <div className="column is-10 ">
-                  <h3 className="has-text-weight-semibold is-size-2 is-primary">
-                    {intro.heading}
-                  </h3>
-                  <p>{intro.description.p1}</p>
-                  <p>{intro.description.p2}</p>
-                  <p>{intro.description.p3}</p>
-                  <p>{intro.description.p4}</p>
-                  <p>{intro.description.p5}</p>
+              <div className="section">
+                <div className="columns is-centered has-background-white-ter">
+                  <div className="column is-10 ">
+                    <h3 className="has-text-weight-semibold is-size-2 is-primary">
+                      {intro.heading}
+                    </h3>
+                    <p>{intro.description.p1}</p>
+                    <p>{intro.description.p2}</p>
+                    <p>{intro.description.p3}</p>
+                    <p>{intro.description.p4}</p>
+                    <p>{intro.description.p5}</p>
+                  </div>
                 </div>
               </div>
-              <Sponsors
-                gridItems={sponsor.sponsors}
-                heading={sponsor.heading}
-                description={sponsor.description}
-              />
+              <div className="section">
+                <Sponsors
+                  gridItems={sponsor.sponsors}
+                  heading={sponsor.heading}
+                  description={sponsor.description}
+                />
+              </div>
               <div className="columns">
                 <div className="column is-7">
                   <h3 className="has-text-weight-semibold is-size-3">
