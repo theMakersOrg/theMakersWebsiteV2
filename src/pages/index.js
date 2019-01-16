@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { graphql, Link } from 'gatsby'
+import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Hero from '../components/Hero'
 import Features from '../components/Features'
@@ -176,6 +176,21 @@ export default class IndexPage extends React.Component {
     this.toggleModal = this.toggleModal.bind(this)
   }
 
+  componentDidMount() {
+    let visited = sessionStorage['alreadyVisited']
+    if (!visited) {
+      //this is the first time
+      sessionStorage['alreadyVisited'] = true
+      //this.setState({ viewPopup: true});
+      setTimeout(
+        function() {
+          this.setState({ modalState: true })
+        }.bind(this),
+        1000
+      )
+    }
+  }
+
   toggleModal() {
     this.setState((prev, props) => {
       const newState = !prev.modalState
@@ -183,13 +198,6 @@ export default class IndexPage extends React.Component {
       return { modalState: newState }
     })
   }
-
-  modalTimer = setTimeout(
-    function() {
-      this.setState({ modalState: true })
-    }.bind(this),
-    1000
-  )
 
   render() {
     const { data } = this.props
@@ -204,31 +212,45 @@ export default class IndexPage extends React.Component {
         <Modal
           closeModal={this.toggleModal}
           modalState={this.state.modalState}
-          title="Example modal title"
+          title="Did you know about our Open Night?"
         >
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-            sit amet justo in arcu efficitur malesuada nec ut diam. Aenean a
-            iaculis eros. Proin nec purus congue, rutrum sapien id, sodales
-            ante. Nam imperdiet sapien pretium leo dapibus euismod. Ut ac
-            venenatis nunc. Praesent viverra purus vel lacus ullamcorper porta a
-            a augue. Proin rhoncus tempus leo sed ultricies. In luctus aliquam
-            placerat. Cras efficitur enim vitae vulputate consequat. Nulla
-            tellus est, fringilla quis nisi eu, aliquam finibus eros.
-          </p>
-          <p>
-            Aliquam est dui, varius eu tempor ac, ornare vel magna. Suspendisse
-            potenti. Nullam gravida fermentum turpis, at ultricies risus
-            bibendum sit amet. Nulla et arcu id nisi semper ullamcorper cursus
-            sed magna. Phasellus pulvinar ligula vehicula consequat sagittis.
-            Donec tristique tellus sed ex euismod ullamcorper. Vivamus nibh
-            metus, scelerisque sed lorem eget, auctor lobortis sapien.
-            Pellentesque habitant morbi tristique senectus et netus et malesuada
-            fames ac turpis egestas. Proin congue auctor diam, efficitur
-            dignissim neque. Pellentesque vitae odio ut odio auctor feugiat.
-            Curabitur eget mauris nibh. Vestibulum massa nunc, iaculis at purus
-            venenatis, mollis tincidunt tortor.
-          </p>
+          <div className="section">
+            <h4>What is Open Night?</h4>
+            <p>
+              Open Night is where we open our space to all members of the public
+              and get together to make and chat
+            </p>
+
+            <h4>When is Open Night?</h4>
+            <p>Open Night happens every Thursday evening.</p>
+            <p>Open Doors = 5:30pm</p>
+            <p>Finish = Late (9/10pm)</p>
+
+            <h4>What to bring?</h4>
+            <p>Yourself!!! - Seriously, :)</p>
+            <p>
+              Feel free to bring anything you like to work on or show off
+              previous creations, dont be shy!
+            </p>
+            <p>
+              If you think you might get hungry we usually chip in and order
+              pizza. ;)
+            </p>
+
+            <h4>What to wear?</h4>
+            <p>
+              Sensible attire for what you will be doing, covered footware is a
+              must for the workshop, dont forget your safety equipment (if)for
+              the work you wish to do.
+            </p>
+          </div>
+          <div className="section">
+            <h4>Where is Open Night?</h4>
+            <p>We are Located at Y-102 at the Cairns TAFE.</p>
+            <a href="/contact" className="button is-link is-rounded">
+              Show me a map
+            </a>
+          </div>
         </Modal>
         <IndexPageTemplate
           image={frontmatter.image}
