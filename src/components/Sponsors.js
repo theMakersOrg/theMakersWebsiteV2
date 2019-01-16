@@ -19,7 +19,7 @@ const SponsorGrid = ({ gridItems, heading, description }) => (
                       display: 'inline-block'
                     }}
                   >
-                    <h3 classname="has-text-grey">{item.heading}</h3>
+                    <h3 className="has-text-grey">{item.heading}</h3>
                     <PreviewCompatibleImage imageInfo={item} />
                   </div>
                 </div>
