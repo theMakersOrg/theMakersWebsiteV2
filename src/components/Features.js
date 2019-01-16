@@ -11,12 +11,10 @@ const FeatureGrid = ({ gridItems }) => (
             <div
               style={{
                 width: '240px',
-                display: 'inline-block',
+                display: 'inline-block'
               }}
             >
-            <h3 classname="has-text-grey">
-              {item.heading}
-            </h3>
+              <h3 className="has-text-grey">{item.heading}</h3>
               <PreviewCompatibleImage imageInfo={item} />
             </div>
           </div>
@@ -32,9 +30,9 @@ FeatureGrid.propTypes = {
     PropTypes.shape({
       image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
       text: PropTypes.string,
-      heading: PropTypes.string,
+      heading: PropTypes.string
     })
-  ),
+  )
 }
 
 export default FeatureGrid

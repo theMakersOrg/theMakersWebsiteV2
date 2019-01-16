@@ -9,6 +9,38 @@ import Testimonials from '../components/Testimonials'
 import Pricing from '../components/Pricing'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
+const Modal = ({ children, closeModal, modalState, title }) => {
+  if (!modalState) {
+    return null
+  }
+
+  return (
+    <div className="modal is-active">
+      <div className="modal-background" onClick={closeModal} />
+      <div className="modal-card">
+        <header className="modal-card-head">
+          <p className="modal-card-title">{title}</p>
+          <button className="delete" onClick={closeModal} />
+        </header>
+        <section className="modal-card-body">
+          <div className="content">{children}</div>
+        </section>
+        <footer className="modal-card-foot">
+          <a className="button" onClick={closeModal}>
+            Cancel
+          </a>
+        </footer>
+      </div>
+    </div>
+  )
+}
+
+// Modal.propTypes = {
+//   closeModal: React.PropTypes.func.isRequired,
+//   modalState: React.PropTypes.bool.isRequired,
+//   title: React.PropTypes.string
+// }
+
 const IndexPageTemplate = ({
   image,
   title,
@@ -134,6 +166,39 @@ const IndexPageTemplate = ({
 )
 
 export default class IndexPage extends React.Component {
+  constructor(props) {
+    super(props)
+
+    this.state = {
+      modalState: false
+    }
+
+    this.toggleModal = this.toggleModal.bind(this)
+  }
+
+  componentDidMount() {
+    let visited = sessionStorage['alreadyVisited']
+    if (!visited) {
+      //this is the first time
+      sessionStorage['alreadyVisited'] = true
+      //this.setState({ viewPopup: true});
+      setTimeout(
+        function() {
+          this.setState({ modalState: true })
+        }.bind(this),
+        1000
+      )
+    }
+  }
+
+  toggleModal() {
+    this.setState((prev, props) => {
+      const newState = !prev.modalState
+
+      return { modalState: newState }
+    })
+  }
+
   render() {
     const { data } = this.props
     const { frontmatter } = data.allMarkdownRemark.edges[0].node
@@ -141,6 +206,52 @@ export default class IndexPage extends React.Component {
     return (
       <Layout>
         {/* {JSON.stringify(frontmatter.image)} */}
+        {/* <a className="button is-primary" onClick={this.toggleModal}>
+          Open Modal
+        </a> */}
+        <Modal
+          closeModal={this.toggleModal}
+          modalState={this.state.modalState}
+          title="Did you know about our Open Night?"
+        >
+          <div className="section">
+            <h4>What is Open Night?</h4>
+            <p>
+              Open Night is where we open our space to all members of the public
+              and get together to make and chat
+            </p>
+
+            <h4>When is Open Night?</h4>
+            <p>Open Night happens every Thursday evening.</p>
+            <p>Open Doors = 5:30pm</p>
+            <p>Finish = Late (9/10pm)</p>
+
+            <h4>What to bring?</h4>
+            <p>Yourself!!! - Seriously, :)</p>
+            <p>
+              Feel free to bring anything you like to work on or show off
+              previous creations, dont be shy!
+            </p>
+            <p>
+              If you think you might get hungry we usually chip in and order
+              pizza. ;)
+            </p>
+
+            <h4>What to wear?</h4>
+            <p>
+              Sensible attire for what you will be doing, covered footware is a
+              must for the workshop, dont forget your safety equipment (if)for
+              the work you wish to do.
+            </p>
+          </div>
+          <div className="section">
+            <h4>Where is Open Night?</h4>
+            <p>We are Located at Y-102 at the Cairns TAFE.</p>
+            <a href="/contact" className="button is-link is-rounded">
+              Show me a map
+            </a>
+          </div>
+        </Modal>
         <IndexPageTemplate
           image={frontmatter.image}
           title={frontmatter.title}
@@ -159,7 +270,7 @@ export default class IndexPage extends React.Component {
 }
 
 IndexPageTemplate.propTypes = {
-  image: PropTypes.image,
+  image: PropTypes.PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
   heading: PropTypes.string,
   description: PropTypes.string,

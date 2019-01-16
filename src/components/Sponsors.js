@@ -11,7 +11,7 @@ const SponsorGrid = ({ gridItems, heading, description }) => (
         {gridItems.map(item => (
           <div key={item.heading} className="column is-4">
             <section className="section">
-              <a href={item.link} target="_blank">
+              <a href={item.link} target="_blank" rel="noopener noreferrer">
                 <div className="has-text-centered">
                   <div
                     style={{
@@ -19,7 +19,7 @@ const SponsorGrid = ({ gridItems, heading, description }) => (
                       display: 'inline-block'
                     }}
                   >
-                    <h3 classname="has-text-grey">{item.heading}</h3>
+                    <h3 className="has-text-grey">{item.heading}</h3>
                     <PreviewCompatibleImage imageInfo={item} />
                   </div>
                 </div>
