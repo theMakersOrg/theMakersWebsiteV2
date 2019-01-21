@@ -20,7 +20,7 @@ tags:
   - ''
 ---
 
-![chemex](/img/robotquestion.jpg)
+![Puzzled robot](/img/robotquestion.jpg)
 
 We will just take a **quick** look at all the maker space, and hopefully answer a couple of the questions you might have.
 
