@@ -19,10 +19,6 @@ tags:
   - AI
   - deep learning.
 ---
-
-
-![Laser cut Go Board](/img/img_20181205_161233.jpg "Laser cut Go Board")
-
 ## Who am I?
 
 Does anyone ever really know the answer to this question?
