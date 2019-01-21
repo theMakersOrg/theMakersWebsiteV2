@@ -1,32 +1,42 @@
 ---
 templateKey: blog-post
-title: Making sense of the SCAA’s new Flavor Wheel
+title: Shiny new website!
 date: 2016-12-17T15:04:10.000Z
-description: The Coffee Taster’s Flavor Wheel, the official resource used by coffee tasters, has been revised for the first time this year.
+description: TheMakers.org has received a new website - very shiny indeed!
 tags:
-  - flavor
-  - tasting
+  - website
+  - new
+  - '2019'
+  - Cairns
+  - FNQ
+  - ''
 ---
+![theMakers.org logo](/img/og-image.png)
 
-![flavor wheel](/img/flavor_wheel.jpg)
+With the last website just being a placeholder (and it was holding place for a long time...), we are super stoked to be delivering a brand new website with the new year!
 
-The SCAA updated the wheel to reflect the finer nuances needed to describe flavors more precisely. The new descriptions are more detailed and hence allow cuppers to distinguish between more flavors.
+## What doe this mean to me?
 
-While this is going to be a big change for professional coffee tasters, it means a lot to you as a consumer as well. We’ll explain how the wheel came to be, how pros use it and what the flavors actually mean.
+### Blog / News
 
-## What the updates mean to you
+Well instead of just being a landing page we now have a news / blog section (which you obviously know about...), in this section we will endeavour to keep you up to date with what is happening in the maker space and beyond. As this can get a little repetitive and most of us a fairly time poor, we welcome contributions from you! 
 
-The Specialty Coffee Association of America (SCAA), founded in 1982, is a non-profit trade organization for the specialty coffee industry. With members located in more than 40 countries, SCAA represents every segment of the specialty coffee industry, including:
 
-* producers
-* roasters
-* importers/exporters
-* retailers
-* manufacturers
-* baristas
+### Maker Bios
 
-For over 30 years, SCAA has been dedicated to creating a vibrant specialty coffee community by recognizing, developing and promoting specialty coffee. SCAA sets and maintains quality standards for the industry, conducts market research, and provides education, training, resources, and business services for its members.
+Similar to an artist or musician bio we now have a place for you to show off your creations and tell us a little about yourself. Its super simple to get one, all you need is your name, a tagline, an image, and a quick paragraph. Ask one of our committee members or email create@themakers.org to take the next step. Just remember this is just the minimum for a bio, feel free to pop up a few pics and a couple of paragraphs for each project, its really simple to use free!
 
-Coffee cupping, or coffee tasting, is the practice of observing the tastes and aromas of brewed coffee. It is a professional practice but can be done informally by anyone or by professionals known as "Q Graders". A standard coffee cupping procedure involves deeply sniffing the coffee, then loudly slurping the coffee so it spreads to the back of the tongue.
+### Events
 
-The coffee taster attempts to measure aspects of the coffee's taste, specifically the body (the texture or mouthfeel, such as oiliness), sweetness, acidity (a sharp and tangy feeling, like when biting into an orange), flavour (the characters in the cup), and aftertaste. Since coffee beans embody telltale flavours from the region where they were grown, cuppers may attempt to identify the coffee's origin.
+Apart from our weekly open night (every Thursday from 5:30 pm) theMakers.org will be hosting and / or involved in a number of events throughout the region,. check this page often to stay up-to date.
+
+including:
+* lightning talks
+* workshops
+* professional development
+* special / guest speakers
+* more...
+
+
+
+
