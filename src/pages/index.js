@@ -186,7 +186,7 @@ export default class IndexPage extends React.Component {
         function() {
           this.setState({ modalState: true })
         }.bind(this),
-        1000
+        20000
       )
     }
   }
