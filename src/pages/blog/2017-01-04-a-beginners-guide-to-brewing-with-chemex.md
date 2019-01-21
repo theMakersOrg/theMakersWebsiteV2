@@ -1,27 +1,54 @@
 ---
 templateKey: blog-post
-title: A beginners’ guide to brewing with Chemex
-date: 2017-01-04T15:04:10.000Z
-description: Brewing with a Chemex probably seems like a complicated, time-consuming ordeal, but once you get used to the process, it becomes a soothing ritual that's worth the effort every time.
+title: A beginners’ tour of theMakers.org
+date: 2019-01-04T15:04:00.000Z
+description: >-
+  Have you just stumbled across our site? Wondering what we do? What we have?
+  Here is the 5 minute e-tour. :)
 tags:
-  - brewing
-  - chemex
+  - Makerspace
+  - Cairns QLD
+  - FNQ
+  - welcome
+  - noob
+  - who
+  - why
+  - what
+  - hackerspace
+  - fablab
+  - ''
 ---
-![chemex](/img/chemex.jpg)
+![chemex](/img/robotquestion.jpg)
 
-This week we’ll **take** a look at all the steps required to make astonishing coffee with a Chemex at home. The Chemex Coffeemaker is a manual, pour-over style glass-container coffeemaker that Peter Schlumbohm invented in 1941, and which continues to be manufactured by the Chemex Corporation in Chicopee, Massachusetts.
+We will just take a **quick** look at all the maker space, and hopefully answer a couple of the questions you might have.
 
-In 1958, designers at the [Illinois Institute of Technology](https://www.spacefarm.digital) said that the Chemex Coffeemaker is _"one of the best-designed products of modern times"_, and so is included in the collection of the Museum of Modern Art in New York City.
+## What is a "maker space"
 
-## The little secrets of Chemex brewing
+Due to the many different spaces out there it can sometimes be a little hard to pin down what a maker space is, so it is probably best to explain a little about our (your) maker space.
 
-The Chemex Coffeemaker consists of an hourglass-shaped glass flask with a conical funnel-like neck (rather than the cylindrical neck of an Erlenmeyer flask) and uses proprietary filters, made of bonded paper (thicker-gauge paper than the standard paper filters for a drip-method coffeemaker) that removes most of the coffee oils, brewing coffee with a taste that is different than coffee brewed in other coffee-making systems; also, the thicker paper of the Chemex coffee filters may assist in removing cafestol, a cholesterol-containing compound found in coffee oils. Here’s three important tips newbies forget about:
+Quite simply it is a resource for the community, we provide a space in Cairns, Far North Queensland for anyone to be able to utilise, we also provide access to tools and machinery,a s well as providing a skills and experience pool to help you with your endeavours.
 
-1. Always buy dedicated Chemex filters.
-2. Use a scale, don’t try to eyeball it.
-3. Never skip preheating the glass.
-4. Timing is key, don’t forget the clock.
+## Who are "the Makers"?
 
-The most visually distinctive feature of the Chemex is the heatproof wooden collar around the neck, allowing it to be handled and poured when full of hot water. This is turned, then split in two to allow it to fit around the glass neck. The two pieces are held loosely in place by a tied leather thong. The pieces are not tied tightly and can still move slightly, retained by the shape of the conical glass.
+We are a registered Not For Profit Incorporated Association in Cairns, Queensland, Australia. Officially registered in 2016 after the work of many people in the proceeding few years. 
 
-For a design piece that became popular post-war at a time of Modernism and precision manufacture, this juxtaposition of natural wood and the organic nature of a hand-tied knot with the laboratory nature of glassware was a distinctive feature of its appearance.
+The Committee is made up of the following members:
+* Matthew Ritchie - president
+* Matthew Munsel - vice president
+* Evie Wort - secretary
+* Kurt Schoenhoff - treasurer
+
+Our community is very strong and diverse, ranging from primary school age to retirees and our backgrounds and experience is equally as diverse. United by a love of making, for some that is sewing, for others that is 3D printing, yet others still it is cosplay, some just come to learn and share.
+
+## Why is theMakers.org here?
+
+This is the hardest question to answer in a quick way but I will try my best...
+
+We are here to share, our (your) space, our (your) experience, our (your) equipment. 
+
+As a species we are on the brink if some radical changes that will change this planet and the human race forever, part of our reason for being here is democratise the technology and knowledge to use it and empower the community to do so.
+
+## When? 
+Every Thursday we host an "open night" that anyone can attend, there is no need to RSVP, just come along after 5:30pm and be welcomed with a guided tour and introductions to those that are present. If you have a project bring it! If you dont, dont worry. :)
+
+Our members and subscribers enjoy access to the space outside Thursday evenings, have a chat to a committee member for more info.
