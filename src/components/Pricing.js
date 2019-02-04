@@ -5,7 +5,7 @@ const Pricing = ({ data }) => (
   <div className="columns">
     {data.map(price => (
       <div key={price.plan} className="column">
-        <section className="section">
+        <section className="section box">
           <h4 className="has-text-centered has-text-weight-semibold">
             {price.plan}
           </h4>
@@ -32,9 +32,9 @@ Pricing.propTypes = {
       plan: PropTypes.string,
       price: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
       description: PropTypes.string,
-      items: PropTypes.array,
+      items: PropTypes.array
     })
-  ),
+  )
 }
 
 export default Pricing
