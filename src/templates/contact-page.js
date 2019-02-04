@@ -24,41 +24,30 @@ export const ContactPageTemplate = ({
   return (
     <section className="section section--gradient">
       <div className="container">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <div className="section">
-              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                {title}
-              </h2>
-              <div className="columns">
-                <div className="column is-half">
-                  <Img fluid={location.image.childImageSharp.fluid} />
-                </div>
+        <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
+          {title}
+        </h2>
 
-                <div className="column">
-                  <p>{location.address}</p>
-                  <p>{location.description}</p>
-                </div>
-              </div>
-            </div>
-            <div className="section">
-              <ul>
-                <li>
-                  Facebook:{' '}
-                  <a href={electronic.facebook}>{electronic.facebook}</a>
-                </li>
-                <li>
-                  Email: <a href={electronic.email}>{electronic.email}</a>
-                </li>
-                <li>Phone: {electronic.phone}</li>
-                <li>
-                  GitHub: <a href={electronic.github}>{electronic.github}</a>
-                </li>
-              </ul>
-            </div>
-            <div className="section">
-              <PageContent className="content" content={content} />
-            </div>
+        <div className="columns">
+          <div className="column is-half">
+            <Img fluid={location.image.childImageSharp.fluid} />
+            <p>{location.address}</p>
+            <p>{location.description}</p>
+
+            <ul>
+              <li>
+                Facebook:{' '}
+                <a href={electronic.facebook}>{electronic.facebook}</a>
+              </li>
+              <li>
+                Email: <a href={electronic.email}>{electronic.email}</a>
+              </li>
+              <li>Phone: {electronic.phone}</li>
+              <li>
+                GitHub: <a href={electronic.github}>{electronic.github}</a>
+              </li>
+            </ul>
+            <PageContent className="content" content={content} />
           </div>
         </div>
       </div>

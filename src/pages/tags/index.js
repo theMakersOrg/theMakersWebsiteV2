@@ -28,7 +28,6 @@ const TagsPage = ({
                   <div
                     className="content"
                     style={{ border: '1px solid #333', padding: '2em 4em' }}
-                    key={post.id}
                   >
                     <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>
                       {tag.fieldValue} ({tag.totalCount})
