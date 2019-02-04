@@ -30,24 +30,31 @@ export const ContactPageTemplate = ({
 
         <div className="columns">
           <div className="column is-half">
-            <Img fluid={location.image.childImageSharp.fluid} />
-            <p>{location.address}</p>
-            <p>{location.description}</p>
-
-            <ul>
-              <li>
-                Facebook:{' '}
-                <a href={electronic.facebook}>{electronic.facebook}</a>
-              </li>
-              <li>
-                Email: <a href={electronic.email}>{electronic.email}</a>
-              </li>
-              <li>Phone: {electronic.phone}</li>
-              <li>
-                GitHub: <a href={electronic.github}>{electronic.github}</a>
-              </li>
-            </ul>
-            <PageContent className="content" content={content} />
+            <div>
+              <Img fluid={location.image.childImageSharp.fluid} />
+            </div>
+            <div>
+              <p>{location.address}</p>
+              <p>{location.description}</p>
+            </div>
+            <div>
+              <ul>
+                <li>
+                  Facebook:{' '}
+                  <a href={electronic.facebook}>{electronic.facebook}</a>
+                </li>
+                <li>
+                  Email: <a href={electronic.email}>{electronic.email}</a>
+                </li>
+                <li>Phone: {electronic.phone}</li>
+                <li>
+                  GitHub: <a href={electronic.github}>{electronic.github}</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <PageContent className="content" content={content} />
+            </div>
           </div>
         </div>
       </div>
