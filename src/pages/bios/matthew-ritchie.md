@@ -1,6 +1,6 @@
 ---
 templateKey: bio-post
-makerName: Matthew Ritchie
+title: Matthew Ritchie
 publishDate: 2019-01-29T06:46:24.637Z
 description: 'Living the Dream, a frame of mind.'
 image1: /img/makersprofilewebpic.jpg

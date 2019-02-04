@@ -30,7 +30,7 @@ collections:
     create: true
     slug: '{{slug}}'
     format: 'frontmatter'
-    identifier_field: makerName
+    identifier_field: title
     fields:
       - {
           label: 'Template Key',
@@ -38,7 +38,7 @@ collections:
           widget: 'hidden',
           default: 'bio-post',
         }
-      - { label: 'Maker Name', name: 'makerName', widget: 'string' }
+      - { label: 'Maker Name', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'publishDate', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'text' }
       - { label: 'image', name: 'image1', widget: 'image' }
