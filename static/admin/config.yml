@@ -51,7 +51,7 @@ collections:
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     format: 'frontmatter'
-    identifier_field: name
+    identifier_field: title
     fields:
       - {
           label: 'Template Key',
@@ -59,7 +59,7 @@ collections:
           widget: 'hidden',
           default: 'event-post',
         }
-      - { label: 'Event Name', name: 'name', widget: 'string' }
+      - { label: 'Event Name', name: 'title', widget: 'string' }
       - { label: 'Event Date', name: 'eventDate', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'text' }
       - { label: 'image', name: 'image1', widget: 'image' }
