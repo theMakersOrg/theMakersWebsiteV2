@@ -30,14 +30,14 @@ export const ContactPageTemplate = ({
 
         <div className="columns">
           <div className="column is-half">
-            <div>
+            <div className="section">
               <Img fluid={location.image.childImageSharp.fluid} />
             </div>
-            <div>
+            <div className="section">
               <p>{location.address}</p>
               <p>{location.description}</p>
             </div>
-            <div>
+            <div className="section">
               <ul>
                 <li>
                   Facebook:{' '}
@@ -52,7 +52,7 @@ export const ContactPageTemplate = ({
                 </li>
               </ul>
             </div>
-            <div>
+            <div className="section">
               <PageContent className="content" content={content} />
             </div>
           </div>
