@@ -75,7 +75,7 @@ const EventPost = ({ data }) => {
         description={post.frontmatter.description}
         helmet={
           <Helmet titleTemplate="%s | Event">
-            <title>{`${post.frontmatter.name}`}</title>
+            <title>{`${post.frontmatter.title}`}</title>
             <meta
               name="description"
               content={`${post.frontmatter.description}`}
@@ -83,7 +83,7 @@ const EventPost = ({ data }) => {
           </Helmet>
         }
         tags={post.frontmatter.tags}
-        title={post.frontmatter.name}
+        title={post.frontmatter.title}
         image={post.frontmatter.image1}
       />
     </Layout>
@@ -104,7 +104,7 @@ export const pageQuery = graphql`
       id
       html
       frontmatter {
-        name
+        title
         templateKey
         description
         image1 {
