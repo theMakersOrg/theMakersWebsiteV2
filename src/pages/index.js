@@ -52,19 +52,9 @@ const IndexPageTemplate = ({
   pricing,
   sponsor
 }) => (
-  <section
-    className="section section--gradient"
-    style={{
-      paddingTop: 0
-    }}
-  >
+  <section className="section section--gradient">
     <div className="container">
-      <div
-        className="section"
-        style={{
-          paddingTop: 0
-        }}
-      >
+      <div className="section padding-top-0">
         <div className="columns">
           <div className="column is-10 is-offset-1">
             <div className="content">
