@@ -153,13 +153,11 @@ const IndexPageTemplate = ({
               </div>
               <Features gridItems={intro.blurbs} />
 
-              <div className="section">
-                <Sponsors
-                  gridItems={sponsor.sponsors}
-                  heading={sponsor.heading}
-                  description={sponsor.description}
-                />
-              </div>
+              <Sponsors
+                gridItems={sponsor.sponsors}
+                heading={sponsor.heading}
+                description={sponsor.description}
+              />
             </div>
           </div>
         </div>

@@ -31,15 +31,13 @@ const Navbar = class extends React.Component {
       <div>
         <Hero />
         <nav
-          className="navbar is-transparent"
+          className="navbar is-transparent "
           role="navigation"
           aria-label="main-navigation"
         >
+          <hr class="navbar-divider" />
           <div className="container ">
             <div className="navbar-brand">
-              {/* <Link to="/" className="navbar-item" title="Logo">
-                <img src={logo} alt="theMakers.org" style={{ width: '88px' }} />
-              </Link> */}
               {/* Hamburger menu */}
               <div className="navbar-burger burger" data-target="navMenu">
                 <span />
