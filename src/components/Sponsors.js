@@ -5,7 +5,7 @@ import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 const SponsorGrid = ({ gridItems, heading, description }) => (
   <div className="columns is-centered">
     <div className="column ">
-      <h3 className="has-text-weight-semibold is-size-3">{heading}</h3>
+      <h2 className="has-text-weight-semibold is-size-2">{heading}</h2>
       <p>{description}</p>
       <div className="columns is-multiline">
         {gridItems.map(item => (
