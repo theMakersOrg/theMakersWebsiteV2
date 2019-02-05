@@ -189,6 +189,9 @@ pricing:
       items:
         - Open Nights
         - Special events that are open to the public
+        - '-'
+        - '-'
+        - '-'
       plan: Thursdays (Open nights) and special events.
       price: 'Free - donations are appreciated'
     - description: Great for special projects and getting used to the space
@@ -197,6 +200,7 @@ pricing:
         - Free access to most equipment(currently all are free. :) )
         - Ability to store some items onsite
         - Ability to create a "Maker Bio" on the website.
+        - '-'
       plan: Subscriber
       price: '25 per month'
     - description: For the dedicated maker.
