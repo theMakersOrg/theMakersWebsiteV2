@@ -19,7 +19,7 @@ export default () => (
                 slug
               }
               frontmatter {
-                name
+                title
                 templateKey
                 description
                 image1 {
@@ -52,7 +52,7 @@ export default () => (
                 <Link
                   to={post.fields.slug}
                   //className="image thumbnail"
-                  title={post.frontmatter.name + ' at the makers'}
+                  title={post.frontmatter.title + ' at the makers'}
                 >
                   <Img fluid={post.frontmatter.image1.childImageSharp.fluid} />
                 </Link>
@@ -61,7 +61,7 @@ export default () => (
                 <h3>
                   <p>
                     <Link className="has-text-primary" to={post.fields.slug}>
-                      {post.frontmatter.name}
+                      {post.frontmatter.title}
                     </Link>
                     <span> &bull; </span>
                     <small>{post.frontmatter.eventDate}</small>

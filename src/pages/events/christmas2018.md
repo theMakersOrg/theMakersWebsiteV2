@@ -1,6 +1,6 @@
 ---
 templateKey: event-post
-name: Christmas Party
+title: Christmas Party
 eventDate: 2018-12-21T15:04:10.000Z
 description: Help us celebrate an amazing year at theMakers.org!!!
 image1: /img/happyRobot.jpg

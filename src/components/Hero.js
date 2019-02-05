@@ -6,7 +6,7 @@ const Hero = class extends React.Component {
     return (
       <div style={{ display: 'flex', justifyContent: 'center' }}>
         <div>
-          <img src={hero} alt="theMakers.org" style={{ width: '1024px' }} />
+          <img src={hero} alt="theMakers.org" style={{ width: '254px' }} />
         </div>
       </div>
     )

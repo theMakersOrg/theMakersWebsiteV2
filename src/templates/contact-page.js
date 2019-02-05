@@ -13,7 +13,6 @@ function encode(data) {
 }
 
 export const ContactPageTemplate = ({
-  title,
   content,
   contentComponent,
   location,
@@ -22,52 +21,36 @@ export const ContactPageTemplate = ({
   const PageContent = contentComponent || Content
 
   return (
-    <section className="section section--gradient">
-      <div className="container">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <div className="section">
-              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                {title}
-              </h2>
-              <div className="columns">
-                <div className="column is-half">
-                  <Img fluid={location.image.childImageSharp.fluid} />
-                </div>
-
-                <div className="column">
-                  <p>{location.address}</p>
-                  <p>{location.description}</p>
-                </div>
-              </div>
-            </div>
-            <div className="section">
-              <ul>
-                <li>
-                  Facebook:{' '}
-                  <a href={electronic.facebook}>{electronic.facebook}</a>
-                </li>
-                <li>
-                  Email: <a href={electronic.email}>{electronic.email}</a>
-                </li>
-                <li>Phone: {electronic.phone}</li>
-                <li>
-                  GitHub: <a href={electronic.github}>{electronic.github}</a>
-                </li>
-              </ul>
-            </div>
-            <div className="section">
-              <PageContent className="content" content={content} />
-            </div>
-          </div>
-        </div>
+    <div className="column is-half">
+      <div className="content">
+        <Img fluid={location.image.childImageSharp.fluid} />
       </div>
-    </section>
+      <div className="content">
+        <p>{location.address}</p>
+        <p>{location.description}</p>
+      </div>
+      <div className="content">
+        <ul>
+          <li>
+            Facebook: <a href={electronic.facebook}>{electronic.facebook}</a>
+          </li>
+          <li>
+            Email: <a href={electronic.email}>{electronic.email}</a>
+          </li>
+          <li>Phone: {electronic.phone}</li>
+          <li>
+            GitHub: <a href={electronic.github}>{electronic.github}</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <PageContent className="content" content={content} />
+      </div>
+    </div>
   )
 }
 
 ContactPageTemplate.propTypes = {
-  title: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
   location: PropTypes.object,
@@ -107,84 +90,87 @@ export default class ContactPage extends React.Component {
     return (
       ///////////////////////////////////////////
       <Layout>
-        <ContactPageTemplate
-          contentComponent={HTMLContent}
-          title={data.markdownRemark.frontmatter.title}
-          content={data.markdownRemark.html}
-          location={data.markdownRemark.frontmatter.location}
-          electronic={data.markdownRemark.frontmatter.electronic}
-        />
-
-        <section className="section">
+        <section className="section section--gradient">
           <div className="container">
-            <div className="content">
-              <h1>Contact</h1>
-              <form
-                name="contact"
-                method="post"
-                action="/contact/thanks/"
-                data-netlify="true"
-                data-netlify-honeypot="bot-field"
-                onSubmit={this.handleSubmit}
-              >
-                {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
-                <input type="hidden" name="form-name" value="contact" />
-                <div hidden>
-                  <label>
-                    Don’t fill this out:{' '}
-                    <input name="bot-field" onChange={this.handleChange} />
-                  </label>
+            <div className="columns">
+              <ContactPageTemplate
+                contentComponent={HTMLContent}
+                content={data.markdownRemark.html}
+                location={data.markdownRemark.frontmatter.location}
+                electronic={data.markdownRemark.frontmatter.electronic}
+              />
+
+              <div className="column">
+                <div className="content">
+                  <h1>Email</h1>
+                  <form
+                    name="contact"
+                    method="post"
+                    action="/contact/thanks/"
+                    data-netlify="true"
+                    data-netlify-honeypot="bot-field"
+                    onSubmit={this.handleSubmit}
+                  >
+                    {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
+                    <input type="hidden" name="form-name" value="contact" />
+                    <div hidden>
+                      <label>
+                        Don’t fill this out:{' '}
+                        <input name="bot-field" onChange={this.handleChange} />
+                      </label>
+                    </div>
+                    <div className="field">
+                      <label className="label" htmlFor={'name'}>
+                        Your name
+                      </label>
+                      <div className="control">
+                        <input
+                          className="input"
+                          type={'text'}
+                          name={'name'}
+                          onChange={this.handleChange}
+                          id={'name'}
+                          required={true}
+                        />
+                      </div>
+                    </div>
+                    <div className="field">
+                      <label className="label" htmlFor={'email'}>
+                        Email
+                      </label>
+                      <div className="control">
+                        <input
+                          className="input"
+                          type={'email'}
+                          name={'email'}
+                          onChange={this.handleChange}
+                          id={'email'}
+                          required={true}
+                        />
+                      </div>
+                    </div>
+                    <div className="field">
+                      <label className="label" htmlFor={'message'}>
+                        Message
+                      </label>
+                      <div className="control">
+                        <textarea
+                          className="textarea"
+                          name={'message'}
+                          onChange={this.handleChange}
+                          id={'message'}
+                          required={true}
+                        />
+                      </div>
+                    </div>
+                    <div className="field">
+                      <button className="button is-link" type="submit">
+                        Send
+                      </button>
+                    </div>
+                  </form>
                 </div>
-                <div className="field">
-                  <label className="label" htmlFor={'name'}>
-                    Your name
-                  </label>
-                  <div className="control">
-                    <input
-                      className="input"
-                      type={'text'}
-                      name={'name'}
-                      onChange={this.handleChange}
-                      id={'name'}
-                      required={true}
-                    />
-                  </div>
-                </div>
-                <div className="field">
-                  <label className="label" htmlFor={'email'}>
-                    Email
-                  </label>
-                  <div className="control">
-                    <input
-                      className="input"
-                      type={'email'}
-                      name={'email'}
-                      onChange={this.handleChange}
-                      id={'email'}
-                      required={true}
-                    />
-                  </div>
-                </div>
-                <div className="field">
-                  <label className="label" htmlFor={'message'}>
-                    Message
-                  </label>
-                  <div className="control">
-                    <textarea
-                      className="textarea"
-                      name={'message'}
-                      onChange={this.handleChange}
-                      id={'message'}
-                      required={true}
-                    />
-                  </div>
-                </div>
-                <div className="field">
-                  <button className="button is-link" type="submit">
-                    Send
-                  </button>
-                </div>
-              </form>
+              </div>
             </div>
           </div>
         </section>

@@ -1,18 +1,17 @@
 ---
 templateKey: event-post
-name: Weekly Open Night
+title: Weekly Open Night
 eventDate: 2018-12-13T07:30:00.000Z
 description: >-
   Come along for one of our FREE Thursday afternoon/evening sessions. Bring you
   project or just come along to socialize an chat with fellow makers/artists.
 image1: /img/makerworkbench.jpg
 tags:
-  - opennight
-  - free
-  - arduino
-  - raspberrypi
-  - 3dprinting
-  - ''
+  - Opennight
+  - Free
+  - Arduino
+  - RaspberryPi
+  - 3dPrinting
 ---
 
 ## Participate in one of our Thursday nights all you need to do is turn up!

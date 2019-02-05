@@ -5,7 +5,12 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../../components/Layout'
 
 const TagsPage = ({
-  data: { allMarkdownRemark: { group }, site: { siteMetadata: { title } } },
+  data: {
+    allMarkdownRemark: { group },
+    site: {
+      siteMetadata: { title }
+    }
+  }
 }) => (
   <Layout>
     <section className="section">
@@ -20,9 +25,14 @@ const TagsPage = ({
             <ul className="taglist">
               {group.map(tag => (
                 <li key={tag.fieldValue}>
-                  <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>
-                    {tag.fieldValue} ({tag.totalCount})
-                  </Link>
+                  <div
+                    className="content"
+                    style={{ border: '1px solid #333', padding: '2em 4em' }}
+                  >
+                    <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>
+                      {tag.fieldValue} ({tag.totalCount})
+                    </Link>
+                  </div>
                 </li>
               ))}
             </ul>

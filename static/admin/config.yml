@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: feature/LandingPage
+  branch: feature/BlogContent
 
 media_folder: static/img
 public_folder: /img
@@ -30,7 +30,7 @@ collections:
     create: true
     slug: '{{slug}}'
     format: 'frontmatter'
-    identifier_field: makerName
+    identifier_field: title
     fields:
       - {
           label: 'Template Key',
@@ -38,7 +38,7 @@ collections:
           widget: 'hidden',
           default: 'bio-post',
         }
-      - { label: 'Maker Name', name: 'makerName', widget: 'string' }
+      - { label: 'Maker Name', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'publishDate', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'text' }
       - { label: 'image', name: 'image1', widget: 'image' }
@@ -51,7 +51,7 @@ collections:
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     format: 'frontmatter'
-    identifier_field: name
+    identifier_field: title
     fields:
       - {
           label: 'Template Key',
@@ -59,7 +59,7 @@ collections:
           widget: 'hidden',
           default: 'event-post',
         }
-      - { label: 'Event Name', name: 'name', widget: 'string' }
+      - { label: 'Event Name', name: 'title', widget: 'string' }
       - { label: 'Event Date', name: 'eventDate', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'text' }
       - { label: 'image', name: 'image1', widget: 'image' }
@@ -222,6 +222,8 @@ collections:
                           widget: string,
                         },
                         { label: Items, name: items, widget: list },
+                        { label: Periods, name: period, widget: string },
+                        { label: Colour, name: colour, widget: string },
                       ],
                   },
                 ],
