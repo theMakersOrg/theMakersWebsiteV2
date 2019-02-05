@@ -68,7 +68,7 @@ const IndexPageTemplate = ({
                   })`
                 }}
               >
-                <h2
+                <h1
                   className="has-text-weight-bold is-size-1"
                   style={{
                     boxShadow: '0.5rem 0 0 #21abe3, -0.5rem 0 0 #21abe3',
@@ -78,38 +78,17 @@ const IndexPageTemplate = ({
                   }}
                 >
                   {title}
-                </h2>
+                </h1>
               </div>
               <div className="columns">
                 <div className="column is-7">
-                  <h3 className="has-text-weight-semibold is-size-3 is-secondary ">
+                  <h2 className="has-text-weight-semibold is-secondary is-size-1">
                     {heading}
-                  </h3>
+                  </h2>
                   <p>{description}</p>
                 </div>
               </div>
-              <Features gridItems={intro.blurbs} />
-              <div className="section">
-                <div className="columns is-centered has-background-white-ter">
-                  <div className="column is-10 ">
-                    <h3 className="has-text-weight-semibold is-size-2 is-primary">
-                      {intro.heading}
-                    </h3>
-                    <p>{intro.description.p1}</p>
-                    <p>{intro.description.p2}</p>
-                    <p>{intro.description.p3}</p>
-                    <p>{intro.description.p4}</p>
-                    <p>{intro.description.p5}</p>
-                  </div>
-                </div>
-              </div>
-              <div className="section">
-                <Sponsors
-                  gridItems={sponsor.sponsors}
-                  heading={sponsor.heading}
-                  description={sponsor.description}
-                />
-              </div>
+              <div class="is-divider" />
               <div className="columns">
                 <div className="column is-7">
                   <h3 className="has-text-weight-semibold is-size-3">
@@ -140,6 +119,13 @@ const IndexPageTemplate = ({
                 </div>
               </div>
               <Testimonials testimonials={testimonials} />
+              <h2 className="has-text-weight-semibold is-size-2">
+                {pricing.heading}
+              </h2>
+              <p className="is-size-5">{pricing.description}</p>
+              <Pricing data={pricing.plans} />
+
+              <div class="is-divider" />
               <div
                 className="full-width-image-container"
                 style={{
@@ -150,11 +136,30 @@ const IndexPageTemplate = ({
                   })`
                 }}
               />
-              <h2 className="has-text-weight-semibold is-size-2">
-                {pricing.heading}
-              </h2>
-              <p className="is-size-5">{pricing.description}</p>
-              <Pricing data={pricing.plans} />
+
+              <div className="section">
+                <div className="columns is-centered has-background-white-ter">
+                  <div className="column is-10 ">
+                    <h3 className="has-text-weight-semibold is-size-2 is-primary">
+                      {intro.heading}
+                    </h3>
+                    <p>{intro.description.p1}</p>
+                    <p>{intro.description.p2}</p>
+                    <p>{intro.description.p3}</p>
+                    <p>{intro.description.p4}</p>
+                    <p>{intro.description.p5}</p>
+                  </div>
+                </div>
+              </div>
+              <Features gridItems={intro.blurbs} />
+
+              <div className="section">
+                <Sponsors
+                  gridItems={sponsor.sponsors}
+                  heading={sponsor.heading}
+                  description={sponsor.description}
+                />
+              </div>
             </div>
           </div>
         </div>

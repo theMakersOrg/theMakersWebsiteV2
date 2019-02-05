@@ -7,7 +7,7 @@ heading: What are we?
 description: >-
   TheMakers.org is a Not-For-Profit Maker Space that strives to give the community access to cutting edge technology, resources and know-how. If you don't have the space, equipment, or knowledge to realise your dreams or simply complete a project, perhaps we can help. 
 
-  Every Thursday evening we open our doors to the public and welcome anyone and everyone to join us. Come see what all the fuss is about.
+  Every **Thursday evening we open our doors to the public** and welcome anyone and everyone to join us. Come see what all the fuss is about.
 intro:
   blurbs:
     - image: /img/Icon_Blue_3d-printer.png
