@@ -2,7 +2,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
-import Hero from '../components/Hero'
 import Features from '../components/Features'
 import Sponsors from '../components/Sponsors'
 import Testimonials from '../components/Testimonials'
@@ -66,7 +65,6 @@ const IndexPageTemplate = ({
           paddingTop: 0
         }}
       >
-        <Hero />
         <div className="columns">
           <div className="column is-10 is-offset-1">
             <div className="content">

@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-//import github from '../img/github-icon.svg'
-import logo from '../img/logo.svg'
+import Hero from '../components/Hero'
 
 const Navbar = class extends React.Component {
   componentDidMount() {
@@ -29,39 +28,41 @@ const Navbar = class extends React.Component {
 
   render() {
     return (
-      <nav
-        className="navbar is-transparent"
-        role="navigation"
-        aria-label="main-navigation"
-      >
-        <div className="container">
-          <div className="navbar-brand">
-            <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="theMakers.org" style={{ width: '88px' }} />
-            </Link>
-            {/* Hamburger menu */}
-            <div className="navbar-burger burger" data-target="navMenu">
-              <span />
-              <span />
-              <span />
+      <div>
+        <Hero />
+        <nav
+          className="navbar is-transparent"
+          role="navigation"
+          aria-label="main-navigation"
+        >
+          <div className="container ">
+            <div className="navbar-brand">
+              {/* <Link to="/" className="navbar-item" title="Logo">
+                <img src={logo} alt="theMakers.org" style={{ width: '88px' }} />
+              </Link> */}
+              {/* Hamburger menu */}
+              <div className="navbar-burger burger" data-target="navMenu">
+                <span />
+                <span />
+                <span />
+              </div>
             </div>
-          </div>
-          <div id="navMenu" className="navbar-menu">
-            <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/blog">
-                Blog
-              </Link>
-              <Link className="navbar-item" to="/bios">
-                Maker Bios
-              </Link>
-              <Link className="navbar-item" to="/events">
-                Events
-              </Link>
-              <Link className="navbar-item" to="/contact">
-                Contact
-              </Link>
-            </div>
-            {/* <div className="navbar-end has-text-centered">
+            <div id="navMenu" className="navbar-menu">
+              <div className="navbar-start has-text-centered">
+                <Link className="navbar-item" to="/blog">
+                  Blog
+                </Link>
+                <Link className="navbar-item" to="/bios">
+                  Maker Bios
+                </Link>
+                <Link className="navbar-item" to="/events">
+                  Events
+                </Link>
+                <Link className="navbar-item" to="/contact">
+                  Contact
+                </Link>
+              </div>
+              {/* <div className="navbar-end has-text-centered">
               <a
                 className="navbar-item"
                 href="https://github.com/AustinGreen/gatsby-netlify-cms-boilerplate"
@@ -73,9 +74,10 @@ const Navbar = class extends React.Component {
                 </span>
               </a>
             </div> */}
+            </div>
           </div>
-        </div>
-      </nav>
+        </nav>
+      </div>
     )
   }
 }
