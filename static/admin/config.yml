@@ -222,6 +222,8 @@ collections:
                           widget: string,
                         },
                         { label: Items, name: items, widget: list },
+                        { label: Periods, name: period, widget: string },
+                        { label: Colour, name: colour, widget: string },
                       ],
                   },
                 ],

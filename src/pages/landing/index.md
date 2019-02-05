@@ -192,24 +192,30 @@ pricing:
         - '-'
         - '-'
         - '-'
-      plan: Thursdays (Open nights) and special events.
-      price: 'Free - donations are appreciated'
+      plan: Open Nights (Thurs).
+      price: 'Free'
+      period: always
+      colour: ''
     - description: Great for special projects and getting used to the space
       items:
         - Free access outside of open nights
-        - Free access to most equipment(currently all are free. :) )
+        - Free access to most equipment(currently all)
         - Ability to store some items onsite
         - Ability to create a "Maker Bio" on the website.
         - '-'
       plan: Subscriber
-      price: '25 per month'
+      price: '25'
+      period: month
+      colour: is-warning
     - description: For the dedicated maker.
       items:
         - Whatever you need
         - All subscriber capabilities
-        - Be a registered member of the association(voting rights etc)
+        - Be a registered member of the association
         - Run workshops from the premisis
         - More attractive
       plan: Membership
-      price: '300 per year'
+      price: '300'
+      period: year
+      colour: is-primary
 ---

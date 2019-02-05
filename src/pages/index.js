@@ -426,6 +426,8 @@ export const pageQuery = graphql`
                 items
                 plan
                 price
+                period
+                colour
               }
             }
           }
