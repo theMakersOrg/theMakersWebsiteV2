@@ -22,6 +22,7 @@ const TemplateWrapper = ({ children }) => (
         <Helmet>
           <html lang="en" />
           <title>{data.site.siteMetadata.title}</title>
+          <meta name='title' content= {data.site.siteMetadata.title }/>
           <meta
             name="description"
             content={data.site.siteMetadata.description}
