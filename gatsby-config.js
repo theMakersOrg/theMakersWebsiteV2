@@ -1,8 +1,21 @@
+const website = require('./config/website')
+
+const pathPrefix = website.pathPrefix === '/' ? '' : website.pathPrefix
+
 module.exports = {
   siteMetadata: {
-    title: 'theMakers.org - Smart Community, shared resources',
-    description:
-      'TheMakers.org is a Not-For-Profit Maker Space Located in Cairns, QLD, that strives to give the community access to cutting edge technology, resources and know-how.'
+    siteUrl: website.url + pathPrefix, // For gatsby-plugin-sitemap
+    pathPrefix,
+    title: website.title,
+    titleAlt: website.titleAlt,
+    description: website.description,
+    banner: website.logo,
+    headline: website.headline,
+    siteLanguage: website.siteLanguage,
+    ogLanguage: website.ogLanguage,
+    author: website.author,
+    twitter: website.twitter,
+    facebook: website.facebook
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -68,6 +81,20 @@ module.exports = {
         ]
       }
     },
+    'gatsby-plugin-sitemap',
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: website.title,
+        short_name: website.titleAlt,
+        description: website.description,
+        start_url: pathPrefix,
+        background_color: website.backgroundColor,
+        theme_color: website.themeColor,
+        display: 'standalone',
+        icon: website.favicon
+      }
+    },
     {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {
@@ -75,6 +102,7 @@ module.exports = {
       }
     },
     'gatsby-plugin-purgecss', // must be after other CSS plugins
+    'gatsby-plugin-offline',
     'gatsby-plugin-netlify' // make sure to keep it last in the array
   ]
 }
