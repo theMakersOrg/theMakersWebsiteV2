@@ -74,7 +74,7 @@ const BioPost = ({ data }, location) => {
         title={`${post.frontmatter.title} | ${website.titleAlt}`}
         pathname={location.pathname}
         desc={post.frontmatter.description}
-        banner={JSON.stringify(post.frontmatter.image1)}
+        banner={JSON.stringify(post.frontmatter.image1.url)}
         node={post}
         article
       />
