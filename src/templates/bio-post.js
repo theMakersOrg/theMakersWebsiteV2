@@ -71,9 +71,7 @@ const BioPost = ({ data }, location) => {
   return (
     <Layout customSEO>
       <SEO
-        title={`${'theMakers - ' + post.frontmatter.title} | ${
-          website.titleAlt
-        }`}
+        title={`${post.frontmatter.title} | ${website.titleAlt}`}
         pathname={location.pathname}
         desc={post.frontmatter.description}
         banner={post.frontmatter.image1}
@@ -86,7 +84,7 @@ const BioPost = ({ data }, location) => {
         description={post.frontmatter.description}
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
-        image={post.frontmatter.image1}
+        image={JSON.stringify(post.frontmatter.image1)}
       />
     </Layout>
   )
