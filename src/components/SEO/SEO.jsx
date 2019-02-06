@@ -113,8 +113,8 @@ export default class SEO extends Component {
                   url: `${siteUrl}${defaultBanner}`
                 }
               },
-              datePublished: node.frontmatter.publishdate,
-              dateModified: node.frontmatter.publishdate,
+              datePublished: '2019-06-02T10:30:00+01:00',
+              dateModified: '2019-06-02T10:30:00+01:00',
               description: seo.description,
               headline: seo.title,
               inLanguage: 'en',
