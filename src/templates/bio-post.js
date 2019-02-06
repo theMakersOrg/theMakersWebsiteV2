@@ -74,7 +74,7 @@ const BioPost = ({ data }, location) => {
         title={`${post.frontmatter.title} | ${website.titleAlt}`}
         pathname={location.pathname}
         desc={post.frontmatter.description}
-        banner={post.frontmatter.image1}
+        banner={JSON.stringify(post.frontmatter.image1)}
         node={post}
         article
       />
@@ -84,7 +84,7 @@ const BioPost = ({ data }, location) => {
         description={post.frontmatter.description}
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
-        image={JSON.stringify(post.frontmatter.image1)}
+        image={post.frontmatter.image1}
       />
     </Layout>
   )
