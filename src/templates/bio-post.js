@@ -1,11 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { kebabCase } from 'lodash'
-import Helmet from 'react-helmet'
+import SEO from '../components/SEO'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 import Img from 'gatsby-image'
+import website from '../../config/website'
 
 export const BioPostTemplate = ({
   content,
@@ -64,24 +65,25 @@ BioPostTemplate.propTypes = {
   image: PropTypes.image
 }
 
-const BioPost = ({ data }) => {
+const BioPost = ({ data }, location) => {
   const { markdownRemark: post } = data
 
   return (
-    <Layout>
+    <Layout customSEO>
+      <SEO
+        title={`${'theMakers - ' + post.frontmatter.title} | ${
+          website.titleAlt
+        }`}
+        pathname={location.pathname}
+        desc={post.frontmatter.description}
+        banner={post.frontmatter.image1}
+        node={post}
+        article
+      />
       <BioPostTemplate
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
-        helmet={
-          <Helmet titleTemplate="%s | Bio">
-            <title>{`${post.frontmatter.title}`}</title>
-            <meta
-              name="description"
-              content={`${post.frontmatter.description}`}
-            />
-          </Helmet>
-        }
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
         image={post.frontmatter.image1}
