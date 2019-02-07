@@ -6,11 +6,15 @@ const Pricing = ({ data }) => (
     {data.map(price => (
       <div
         key={price.plan}
-        className={'pricing-plan column is-one-quarter ' + price.colour}
+        className={
+          'pricing-plan column ' +
+          price.colour +
+          ' is-one-quarter has-background-primary'
+        }
       >
         <div className="plan-header">{price.plan}</div>
         <div className="plan-price">
-          <span class="plan-price-amount">
+          <span class="plan-price-amount ">
             <span class="plan-price-currency">$</span>
             {price.price}
           </span>
@@ -19,7 +23,7 @@ const Pricing = ({ data }) => (
 
         <div className="plan-items">
           {price.items.map(item => (
-            <div key={item} className="plan-item">
+            <div key={item} className="plan-item ">
               {item}
             </div>
           ))}
