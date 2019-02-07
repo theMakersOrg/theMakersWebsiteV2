@@ -47,16 +47,16 @@ const Navbar = class extends React.Component {
             </div>
             <div id="navMenu" className="navbar-menu">
               <div className="navbar-start">
-                <Link className="navbar-item is-large" to="/blog">
+                <Link className="navbar-item is-link" to="/blog">
                   Blog
                 </Link>
-                <Link className="navbar-item" to="/bios">
+                <Link className="navbar-item is-link" to="/bios">
                   Maker Bios
                 </Link>
-                <Link className="navbar-item" to="/events">
+                <Link className="navbar-item is-link" to="/events">
                   Events
                 </Link>
-                <Link className="navbar-item" to="/contact">
+                <Link className="navbar-item is-link" to="/contact">
                   Contact
                 </Link>
               </div>
