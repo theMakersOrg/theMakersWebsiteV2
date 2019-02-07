@@ -22,8 +22,8 @@ const TemplateWrapper = ({ children }) => (
         <Navbar />
         <SEO />
         <div>{children}</div>
-        <footer class="footer columns is-centered">
-          <div class="content has-text-centered column is-half has-background-light ">
+        <footer class="footer columns is-centered  has-background-light ">
+          <div class="content has-text-centered column is-half">
             <p>
               <strong>TheMakers.org</strong> Designed, developed and deployed by{' '}
               <a href="https://kurtsch.com.au">Kurt Schoenhoff</a>.
