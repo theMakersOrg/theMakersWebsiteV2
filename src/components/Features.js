@@ -5,15 +5,16 @@ import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 const FeatureGrid = ({ gridItems }) => (
   <div className="columns is-multiline">
     {gridItems.map(item => (
-      <div key={item.text} className="column is-6">
+      <div key={item.text} className="column is-4">
         <section className="section">
           <div className="has-text-centered">
             <div
               style={{
                 width: '240px',
-                display: 'inline-block',
+                display: 'inline-block'
               }}
             >
+              <h3 className="has-text-grey">{item.heading}</h3>
               <PreviewCompatibleImage imageInfo={item} />
             </div>
           </div>
@@ -29,8 +30,9 @@ FeatureGrid.propTypes = {
     PropTypes.shape({
       image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
       text: PropTypes.string,
+      heading: PropTypes.string
     })
-  ),
+  )
 }
 
 export default FeatureGrid

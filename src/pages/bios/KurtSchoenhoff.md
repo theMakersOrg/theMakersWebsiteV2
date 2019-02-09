@@ -1,36 +1,44 @@
 ---
 templateKey: bio-post
-name: Kurt Schoenhoff
+title: Kurt Schoenhoff
 publishDate: 2018-12-11T15:04:10.000Z
-description: 'Radest, badest, most gladest maker in the universe!!!'
+description: 'Eat, Sleep, Make, Repeat!'
 image1: /img/KurtSchoenhoffBio.jpg
 tags:
   - Arduino
   - JAMStack
   - RaspberryPi
   - PixelLEDS
+  - Programing
+  - 3D Printing
+  - CNC
+  - Soldering
+  - PCB making
+  - Design Thinking
+  - machine learning
+  - AI
+  - deep learning.
 ---
-## Kurt Schoenhoff - :)
 
-![flavor wheel](/img/flavor_wheel.jpg)
+## Who am I?
 
-The SCAA updated the wheel to reflect the finer nuances needed to describe flavors more precisely. The new descriptions are more detailed and hence allow cuppers to distinguish between more flavors.
+Does anyone ever really know the answer to this question?
 
-While this is going to be a big change for professional coffee tasters, it means a lot to you as a consumer as well. We’ll explain how the wheel came to be, how pros use it and what the flavors actually mean.
+## What do I do?
 
-## What the updates mean to you
+Hack the world! Not content with anything in the word, I choose to hack it for the better!
 
-The Specialty Coffee Association of America (SCAA), founded in 1982, is a non-profit trade organization for the specialty coffee industry. With members located in more than 40 countries, SCAA represents every segment of the specialty coffee industry, including:
+## Projects:
 
-* producers
-* roasters
-* importers/exporters
-* retailers
-* manufacturers
-* baristas
+### Laser cut "GO" board
 
-For over 30 years, SCAA has been dedicated to creating a vibrant specialty coffee community by recognizing, developing and promoting specialty coffee. SCAA sets and maintains quality standards for the industry, conducts market research, and provides education, training, resources, and business services for its members.
+![Laser cut Go Board](/img/img_20181205_161233.jpg 'Laser cut Go Board')
+This was a project for a friend, the board is cut from 3mm acrylic and has been spray painted black, an additional 3mm MDF sheet was glued to this for extra support. Board pieces were cut from 3mm MDF and a pattern etched on one side. top if acrylic was vector etched and then white acrylic paint was rubbed into the etch. bottom of acrylic was etched before painting black, if you look closely you can see a dragon in the center of the board.
 
-Coffee cupping, or coffee tasting, is the practice of observing the tastes and aromas of brewed coffee. It is a professional practice but can be done informally by anyone or by professionals known as "Q Graders". A standard coffee cupping procedure involves deeply sniffing the coffee, then loudly slurping the coffee so it spreads to the back of the tongue.
+### Machine learning Rig
 
-The coffee taster attempts to measure aspects of the coffee's taste, specifically the body (the texture or mouthfeel, such as oiliness), sweetness, acidity (a sharp and tangy feeling, like when biting into an orange), flavour (the characters in the cup), and aftertaste. Since coffee beans embody telltale flavours from the region where they were grown, cuppers may attempt to identify the coffee's origin.
+![Motherboard with dual cpu and a RTX2070 GPU](/img/img_20181130_083210.jpg 'ML Rig sporting dual Xeons and a RTX2070 GPU ')
+
+As I will be spending this year (end more) getting down and dirty with Deep Neural Networks, I decided that I would build a ML rig (hosted at theMakers) together for myself and others to use.
+
+This unit has found itself a home in an old case and I am currently thinking of a design for the acrylic cover...

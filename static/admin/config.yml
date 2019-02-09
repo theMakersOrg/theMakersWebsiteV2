@@ -28,7 +28,9 @@ collections:
     label: 'Bio'
     folder: 'src/pages/bios'
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    slug: '{{slug}}'
+    format: 'frontmatter'
+    identifier_field: title
     fields:
       - {
           label: 'Template Key',
@@ -36,8 +38,29 @@ collections:
           widget: 'hidden',
           default: 'bio-post',
         }
-      - { label: 'Name', name: 'name', widget: 'string' }
+      - { label: 'Maker Name', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'publishDate', widget: 'datetime' }
+      - { label: 'Description', name: 'description', widget: 'text' }
+      - { label: 'image', name: 'image1', widget: 'image' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Tags', name: 'tags', widget: 'list' }
+
+  - name: 'event'
+    label: 'Event'
+    folder: 'src/pages/events'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    format: 'frontmatter'
+    identifier_field: title
+    fields:
+      - {
+          label: 'Template Key',
+          name: 'templateKey',
+          widget: 'hidden',
+          default: 'event-post',
+        }
+      - { label: 'Event Name', name: 'title', widget: 'string' }
+      - { label: 'Event Date', name: 'eventDate', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'text' }
       - { label: 'image', name: 'image1', widget: 'image' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
@@ -46,27 +69,49 @@ collections:
   - name: 'pages'
     label: 'Pages'
     files:
-      - file: 'src/pages/about/index.md'
-        label: 'About'
-        name: 'about'
+      - file: 'src/pages/contact/index.md'
+        label: 'Contact Page'
+        name: 'contact'
         fields:
           - {
               label: 'Template Key',
               name: 'templateKey',
               widget: 'hidden',
-              default: 'about-page',
+              default: 'contact-page',
             }
-          - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Body', name: 'body', widget: 'markdown' }
-      - file: 'src/pages/products/index.md'
-        label: 'Products Page'
-        name: 'products'
+          - {
+              label: Location,
+              name: location,
+              widget: object,
+              fields:
+                [
+                  { label: Address, name: address, widget: string },
+                  { label: Image, name: image, widget: image },
+                  { label: Description, name: description, widget: string },
+                  { label: Open Night, name: opennight, widget: string },
+                ],
+            }
+          - {
+              label: Electronic,
+              name: electronic,
+              widget: object,
+              fields:
+                [
+                  { label: Facebook, name: facebook, widget: string },
+                  { label: Email, name: email, widget: string },
+                  { label: Phone, name: phone, widget: string },
+                  { label: Github, name: github, widget: string },
+                ],
+            }
+      - file: 'src/pages/landing/index.md'
+        label: 'Landing Page'
+        name: 'landing'
         fields:
           - {
               label: 'Template Key',
               name: 'templateKey',
               widget: 'hidden',
-              default: 'product-page',
+              default: 'landing-page',
             }
           - { label: Title, name: title, widget: string }
           - { label: Image, name: image, widget: image }
@@ -79,7 +124,19 @@ collections:
               fields:
                 [
                   { label: Heading, name: heading, widget: string },
-                  { label: Description, name: description, widget: text },
+                  {
+                    label: Description,
+                    name: description,
+                    widget: object,
+                    fields:
+                      [
+                        { label: P1, name: p1, widget: string },
+                        { label: P2, name: p2, widget: string },
+                        { label: P3, name: p3, widget: string },
+                        { label: P4, name: p4, widget: string },
+                        { label: P5, name: p5, widget: string },
+                      ],
+                  },
                   {
                     label: Blurbs,
                     name: blurbs,
@@ -165,6 +222,8 @@ collections:
                           widget: string,
                         },
                         { label: Items, name: items, widget: list },
+                        { label: Periods, name: period, widget: string },
+                        { label: Colour, name: colour, widget: string },
                       ],
                   },
                 ],

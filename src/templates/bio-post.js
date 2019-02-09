@@ -1,10 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { kebabCase } from 'lodash'
-import Helmet from 'react-helmet'
+import SEO from '../components/SEO'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
+import Img from 'gatsby-image'
+import website from '../../config/website'
 
 export const BioPostTemplate = ({
   content,
@@ -12,7 +14,8 @@ export const BioPostTemplate = ({
   description,
   tags,
   title,
-  helmet
+  helmet,
+  image
 }) => {
   const PostContent = contentComponent || Content
 
@@ -22,10 +25,17 @@ export const BioPostTemplate = ({
       <div className="container content">
         <div className="columns">
           <div className="column is-10 is-offset-1">
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-              {title}
-            </h1>
-            <p>{description}</p>
+            <div className="columns">
+              <div className="column is-one-quarter">
+                <Img fluid={image.childImageSharp.fluid} />
+              </div>
+              <div className="column">
+                <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
+                  {title}
+                </h1>
+                <p>{description}</p>
+              </div>
+            </div>
             <PostContent content={content} />
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
@@ -51,29 +61,29 @@ BioPostTemplate.propTypes = {
   contentComponent: PropTypes.func,
   description: PropTypes.string,
   title: PropTypes.string,
-  helmet: PropTypes.object
+  helmet: PropTypes.object,
+  image: PropTypes.image
 }
 
-const BioPost = ({ data }) => {
+const BioPost = ({ data }, location) => {
   const { markdownRemark: post } = data
 
   return (
-    <Layout>
+    <Layout customSEO>
+      <SEO
+        title={`${post.frontmatter.title} | ${website.titleAlt}`}
+        pathname={location.pathname}
+        desc={post.frontmatter.description}
+        node={post}
+        article
+      />
       <BioPostTemplate
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
-        helmet={
-          <Helmet titleTemplate="%s | Bio">
-            <title>{`${post.frontmatter.name}`}</title>
-            <meta
-              name="description"
-              content={`${post.frontmatter.description}`}
-            />
-          </Helmet>
-        }
         tags={post.frontmatter.tags}
-        title={post.frontmatter.name}
+        title={post.frontmatter.title}
+        image={post.frontmatter.image1}
       />
     </Layout>
   )
@@ -93,7 +103,7 @@ export const pageQuery = graphql`
       id
       html
       frontmatter {
-        name
+        title
         templateKey
         description
         image1 {

@@ -1,10 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { kebabCase } from 'lodash'
-import Helmet from 'react-helmet'
+import SEO from '../components/SEO'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
+import website from '../../config/website'
 
 export const BlogPostTemplate = ({
   content,
@@ -12,7 +13,7 @@ export const BlogPostTemplate = ({
   description,
   tags,
   title,
-  helmet,
+  helmet
 }) => {
   const PostContent = contentComponent || Content
 
@@ -51,26 +52,25 @@ BlogPostTemplate.propTypes = {
   contentComponent: PropTypes.func,
   description: PropTypes.string,
   title: PropTypes.string,
-  helmet: PropTypes.object,
+  helmet: PropTypes.object
 }
 
-const BlogPost = ({ data }) => {
+const BlogPost = ({ data }, location) => {
   const { markdownRemark: post } = data
 
   return (
-    <Layout>
+    <Layout customSEO>
+      <SEO
+        title={`${post.frontmatter.title} | ${website.titleAlt}`}
+        pathname={location.pathname}
+        desc={post.frontmatter.description}
+        node={post}
+        article
+      />
       <BlogPostTemplate
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
-        helmet={
-          <Helmet
-            titleTemplate="%s | Blog"
-          >
-            <title>{`${post.frontmatter.title}`}</title>
-            <meta name="description" content={`${post.frontmatter.description}`} />
-          </Helmet>
-        }
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
       />
@@ -80,8 +80,8 @@ const BlogPost = ({ data }) => {
 
 BlogPost.propTypes = {
   data: PropTypes.shape({
-    markdownRemark: PropTypes.object,
-  }),
+    markdownRemark: PropTypes.object
+  })
 }
 
 export default BlogPost
