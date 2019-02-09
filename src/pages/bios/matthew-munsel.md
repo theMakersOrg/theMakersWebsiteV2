@@ -5,7 +5,11 @@ publishDate: 2019-02-09T06:08:37.658Z
 description: Anything is possible if you don’t know what you are talking about.
 image1: /img/profilepic.jpg
 tags:
-  - Lasers MDF Camera DSLR Timelapse
+  - Lasers
+  - MDF
+  - Camera
+  - DSLR
+  - Timelapse
 ---
 Ever since I could hold a screwdriver I have always wanted to find out how stuff works, even to this day I enjoy taking stuff apart to see how it was made. I have always enjoyed sitting down with a electronics kit and spend a few hours building it and then not letting the magic smoke out, or taking a product apart and hacking it do something it was never designed to do. 
 
