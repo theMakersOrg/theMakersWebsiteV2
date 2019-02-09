@@ -5,8 +5,11 @@ publishDate: 2019-01-29T06:46:24.637Z
 description: 'Living the Dream, a frame of mind.'
 image1: /img/makersprofilewebpic.jpg
 tags:
-  - pipecleaner
-  - poolcleaner
+  - pipe cleaner
+  - pool cleaner
+  - philosophical
+  - dreams
+  - ''
 ---
 Put a baby in sand and it will start to make, it's the human condition.  The choice is "Take" or "Make" --> "Consume" or "Create"?
 Selfishness may permeate economics, but to design a better future we leave no creative warrior behind.  “Alone we can do so little; together we can do so much”.  
