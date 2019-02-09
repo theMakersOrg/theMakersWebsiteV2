@@ -213,7 +213,7 @@ export default class IndexPage extends React.Component {
         <Modal
           closeModal={this.toggleModal}
           modalState={this.state.modalState}
-          title="Did you know about our Open Night?"
+          title="Open Night"
         >
           <div className="section">
             <h4>What is Open Night?</h4>

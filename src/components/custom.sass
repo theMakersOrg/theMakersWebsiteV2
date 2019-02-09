@@ -1,17 +1,3 @@
-
-.navbar .navbar-menu .navbar-start .navbar-end
-    display: inherit
-
-.navbar-start
-    justify-content: center
-    width: 100%
-
-.navbar-item
-    font-weight: bolder
-    font-size: 1.2em
-    border-right: 1px solid grey
-    padding-right: 1em
-
 h1 
     font-family: Roboto
 
@@ -30,3 +16,34 @@ h5
 h6 
     font-family: Roboto
 
+.navbar .navbar-menu .navbar-start .navbar-end
+    display: inherit
+
+.navbar-start
+    justify-content: center
+    width: 100%
+
+.navbar-item
+    font-weight: bolder
+    font-size: 1.2em
+    border-right: 1px solid $primary
+    padding-right: 1em
+
+.navbar.is-transparent a.navbar-item:hover
+  color: $primary-invert
+
+.navbar.is-transparent a.navbar-item
+  color: $primary
+
+a:hover
+  color: $primary-invert
+
+a
+  color: $primary
+
+a.has-text-primary:hover 
+  color: $primary-invert !important
+
+$link: $primary !default
+$link-invert: $primary-invert !default
+$link-focus-border: $primary !default
