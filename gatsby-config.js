@@ -14,7 +14,6 @@ module.exports = {
     siteLanguage: website.siteLanguage,
     ogLanguage: website.ogLanguage,
     author: website.author,
-    twitter: website.twitter,
     facebook: website.facebook
   },
   plugins: [
