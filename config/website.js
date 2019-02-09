@@ -7,7 +7,7 @@ module.exports = {
   headline: 'Makerspace, hackerspace, your space', // Headline for schema.org JSONLD
   url: 'https://themakers.org', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
-  logo: '/img/hero.png', // Used for SEO
+  logo: '/img/og-image.png', // Used for SEO
   ogLanguage: 'en_US', // Facebook Language
 
   // JSONLD / Manifest
