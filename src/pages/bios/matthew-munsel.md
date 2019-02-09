@@ -9,13 +9,19 @@ tags:
 ---
 Ever since I could hold a screwdriver I have always wanted to find out how stuff works, even to this day I enjoy taking stuff apart to see how it was made. I have always enjoyed sitting down with a electronics kit and spend a few hours building it and then not letting the magic smoke out, or taking a product apart and hacking it do something it was never designed to do. 
 
+
+
 What do I do:
 
 By Day: One who does **precision guess work **based on **unreliable** data provided by those of questionable knowledge or in other words an Electrician.
 
+
+
 By Night: Making projects that I find interesting or will help me learn a particular skill. 
 
 \*Note\* Most of my projects are never finished or just finished enough to be working.
+
+
 
 Projects:
 
