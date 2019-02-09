@@ -5,7 +5,7 @@ module.exports = {
   description:
     'TheMakers.org is a Not-For-Profit Maker Space Located in Cairns, QLD, that strives to give the community access to cutting edge technology, resources and know-how.',
   headline: 'Makerspace, hackerspace, your space', // Headline for schema.org JSONLD
-  url: 'https://theMakers.org', // Domain of your site. No trailing slash!
+  url: 'https://themakers.org', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
   logo: '/img/hero.svg', // Used for SEO
   ogLanguage: 'en_US', // Facebook Language
@@ -17,5 +17,5 @@ module.exports = {
   themeColor: '#21abe3',
   backgroundColor: '#ed1c24',
 
-  facebook: 'theMakers.org' // Facebook Site Name
+  facebook: 'themakers.org' // Facebook Site Name
 }
