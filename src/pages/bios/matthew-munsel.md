@@ -13,8 +13,6 @@ What do I do:
 
 By Day: One who does **precision guess work **based on **unreliable** data provided by those of questionable knowledge or in other words an Electrician.
 
-
-
 By Night: Making projects that I find interesting or will help me learn a particular skill. 
 
 \*Note\* Most of my projects are never finished or just finished enough to be working.
