@@ -20,6 +20,7 @@ tags:
   - deep learning.
 ---
 
+
 ## Who am I?
 
 Does anyone ever really know the answer to this question?
@@ -32,13 +33,21 @@ Hack the world! Not content with anything in the word, I choose to hack it for t
 
 ### Laser cut "GO" board
 
-![Laser cut Go Board](/img/img_20181205_161233.jpg 'Laser cut Go Board')
+![Laser cut Go Board](/img/img_20181205_161233.jpg "Laser cut Go Board")
 This was a project for a friend, the board is cut from 3mm acrylic and has been spray painted black, an additional 3mm MDF sheet was glued to this for extra support. Board pieces were cut from 3mm MDF and a pattern etched on one side. top if acrylic was vector etched and then white acrylic paint was rubbed into the etch. bottom of acrylic was etched before painting black, if you look closely you can see a dragon in the center of the board.
 
 ### Machine learning Rig
 
-![Motherboard with dual cpu and a RTX2070 GPU](/img/img_20181130_083210.jpg 'ML Rig sporting dual Xeons and a RTX2070 GPU ')
+![Motherboard with dual cpu and a RTX2070 GPU](/img/img_20181130_083210.jpg "ML Rig sporting dual Xeons and a RTX2070 GPU ")
 
 As I will be spending this year (end more) getting down and dirty with Deep Neural Networks, I decided that I would build a ML rig (hosted at theMakers) together for myself and others to use.
 
 This unit has found itself a home in an old case and I am currently thinking of a design for the acrylic cover...
+
+## Recycled Score keeper
+
+![Recycled score keeper built with 7 segment LEDS](/img/img_20190225_153840-collage.jpg "Recycled score keeper built with 7 segment LEDS")
+
+This project started as a desire to work with some 7 segment LEDs that originally were used in a currency exchange board (this one was displaying time I believe). After some initial exploration of how to get the board working I was inspired to create a more artistic and less engineering based item. Over 90% of this project is recycled, the batteries are from an old Dyson vacuum cleaner, the stand was a speaker A/B tester, the acrylic was from light panels and most of the wiring and electronics was recycled from various items. 
+
+I deliberately kept the electronics exposed to help illustrate the use of recycled materials and the re-usability of what is normally considered "throw away".
