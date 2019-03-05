@@ -19,15 +19,15 @@ tags:
   - AI
   - deep learning.
 ---
-## Who am I?
+# Who am I?
 
 Does anyone ever really know the answer to this question?
 
-## What do I do?
+# What do I do?
 
 Hack the world! Not content with anything in the word, I choose to hack it for the better!
 
-## Projects:
+# Projects:
 
 ## Vacuum Former
 
@@ -37,8 +37,6 @@ After looking at an empty milk bottle that was (almost) destined for the recycle
 
 The frame was sized to use 1/2 the plastic cut out of an empty 2L milk bottle. Using a small toaster, a battery powered vacuum and some milk bottles and HDPE containers we managed to get some great detail from the form. Lots of potential here. :)
 
-
-
 ## Recycled Score keeper
 
 ![Recycled score keeper built with 7 segment LEDS](/img/img_20190225_153840-collage.jpg "Recycled score keeper built with 7 segment LEDS")
@@ -47,12 +45,18 @@ This project started as a desire to work with some 7 segment LEDs that originall
 
 I deliberately kept the electronics exposed to help illustrate the use of recycled materials and the re-usability of what is normally considered "throw away".
 
-### Laser cut "GO" board
+## Upcycling old speakers to BluTooth
+
+![Broken Self powered speakers being upcycled into Blutooth ones.](/img/img_20190110_093330-collage.jpg "Hacking broken speakers into the future... Blutooth.")
+
+I have had these broken speakers kicking around for a while, They originally were used in a school but the amp failed (relatively common). The power supply was reused, a [DC to DC](https://nqmakersupplies.com.au/shop/product/dc-dc-power-supply-5a-116) converter was required as the voltage was a little high for the blutooth/amp module. They now live on my desk and are used as PC speakers!
+
+## Laser cut "GO" board
 
 ![Laser cut Go Board](/img/img_20181205_161233.jpg "Laser cut Go Board")
 This was a project for a friend, the board is cut from 3mm acrylic and has been spray painted black, an additional 3mm MDF sheet was glued to this for extra support. Board pieces were cut from 3mm MDF and a pattern etched on one side. top if acrylic was vector etched and then white acrylic paint was rubbed into the etch. bottom of acrylic was etched before painting black, if you look closely you can see a dragon in the center of the board.
 
-### Machine learning Rig
+## Machine learning Rig
 
 ![Motherboard with dual cpu and a RTX2070 GPU](/img/img_20181130_083210.jpg "ML Rig sporting dual Xeons and a RTX2070 GPU ")
 
