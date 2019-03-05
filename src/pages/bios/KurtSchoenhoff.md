@@ -19,8 +19,6 @@ tags:
   - AI
   - deep learning.
 ---
-
-
 ## Who am I?
 
 Does anyone ever really know the answer to this question?
@@ -30,6 +28,24 @@ Does anyone ever really know the answer to this question?
 Hack the world! Not content with anything in the word, I choose to hack it for the better!
 
 ## Projects:
+
+## Vacuum Former
+
+![Laser cut Vacuum former, with spanner and small Easter island head used as forms in white plastic](/img/img_20190206_100043-collage.jpg "Laser cut vacuum former - with test piece.")
+
+After looking at an empty milk bottle that was (almost) destined for the recycle bin, I decided to create a small vacuum former and see what could be done. **As it turns out quite a lot!**  
+
+The frame was sized to use 1/2 the plastic cut out of an empty 2L milk bottle. Using a small toaster, a battery powered vacuum and some milk bottles and HDPE containers we managed to get some great detail from the form. Lots of potential here. :)
+
+
+
+## Recycled Score keeper
+
+![Recycled score keeper built with 7 segment LEDS](/img/img_20190225_153840-collage.jpg "Recycled score keeper built with 7 segment LEDS")
+
+This project started as a desire to work with some 7 segment LEDs that originally were used in a currency exchange board (this one was displaying time I believe). After some initial exploration of how to get the board working I was inspired to create a more artistic and less engineering based item. Over 90% of this project is recycled, the batteries are from an old Dyson vacuum cleaner, the stand was a speaker A/B tester, the acrylic was from light panels and most of the wiring and electronics was recycled from various items. 
+
+I deliberately kept the electronics exposed to help illustrate the use of recycled materials and the re-usability of what is normally considered "throw away".
 
 ### Laser cut "GO" board
 
@@ -44,10 +60,4 @@ As I will be spending this year (end more) getting down and dirty with Deep Neur
 
 This unit has found itself a home in an old case and I am currently thinking of a design for the acrylic cover...
 
-## Recycled Score keeper
-
-![Recycled score keeper built with 7 segment LEDS](/img/img_20190225_153840-collage.jpg "Recycled score keeper built with 7 segment LEDS")
-
-This project started as a desire to work with some 7 segment LEDs that originally were used in a currency exchange board (this one was displaying time I believe). After some initial exploration of how to get the board working I was inspired to create a more artistic and less engineering based item. Over 90% of this project is recycled, the batteries are from an old Dyson vacuum cleaner, the stand was a speaker A/B tester, the acrylic was from light panels and most of the wiring and electronics was recycled from various items. 
-
-I deliberately kept the electronics exposed to help illustrate the use of recycled materials and the re-usability of what is normally considered "throw away".
+##
