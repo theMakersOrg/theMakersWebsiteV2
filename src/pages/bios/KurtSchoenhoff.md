@@ -51,6 +51,12 @@ I deliberately kept the electronics exposed to help illustrate the use of recycl
 
 I have had these broken speakers kicking around for a while, They originally were used in a school but the amp failed (relatively common). The power supply was reused, a [DC to DC](https://nqmakersupplies.com.au/shop/product/dc-dc-power-supply-5a-116) converter was required as the voltage was a little high for the blutooth/amp module. They now live on my desk and are used as PC speakers!
 
+## DIY Hydraulic Excavator
+
+![Laser cut hydraulic excavator using syringes and 3D printed parts.](/img/img_20181218_142529-collage.jpg "Diy Hydraulic Excavator")
+
+This was a challenging but fun project, starting with a thingiverse project the 3D printed parts were customised to fit the syringes and the SS rods reclaimed from toner cartridges. Needs some work as the syringes are not the best hydraulic pistons as they leak air when put under too much stress. Never the less it is a pretty good start and lots of fun getting the co-ordination to perform smooth motion. The axis on the controls actually matches what is in some commercial equipment. 
+
 ## Laser cut "GO" board
 
 ![Laser cut Go Board](/img/img_20181205_161233.jpg "Laser cut Go Board")
