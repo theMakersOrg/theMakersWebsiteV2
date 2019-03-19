@@ -3,7 +3,7 @@ templateKey: blog-post
 title: Weekend Working bee
 date: 2019-03-10T22:17:21.619Z
 description: >-
-  Working bee and a change t o work on some projects. Laser cutter maintenance,
+  Working bee and a change to work on some projects. Laser cutter maintenance,
   workshop cleanup, organize tasks. Projects worked on include LED clock,
   filament extruder, score board and some also some deep neural networks for
   good measure...
