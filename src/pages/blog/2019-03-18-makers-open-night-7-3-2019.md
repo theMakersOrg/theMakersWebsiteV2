@@ -8,6 +8,9 @@ tags:
   - Pizza
   - Repair
   - Lasers
+  - IoT
+  - 3D Printing
+  - Open Night
   - ''
 ---
 What a great turn out we had  on another successful open night and as usual the laser cutter was getting a good workout. 
