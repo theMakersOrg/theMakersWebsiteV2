@@ -21,6 +21,12 @@ tags:
   - Inspiring Australia
   - Arduino
 ---
+## How To register?
+
+email  <mailto:Info@CairnsRegionalSTEM.org>
+
+Limited spots available - Don't miss out!
+
 ## Why do this workshop?
 
 This workshop is for those who might be interested in gaining a better understanding of how to use technology to augment their worlds. 
@@ -47,8 +53,6 @@ Display =  128x64 OLED (yellow/blue) i2c
 
 Temperature sensor = DH122 temperature and humidity.
 
-
-
 ![Closeups of the components](/img/img_20190424_111853-en-collage.jpg "The Line -up")
 
 ## When and Where
@@ -56,3 +60,5 @@ Temperature sensor = DH122 temperature and humidity.
 May 13 (Monday) 2019
 
 [TheMakers.org workshop - Y-102 Cairns TAFE](https://themakers.org/contact)
+
+##
