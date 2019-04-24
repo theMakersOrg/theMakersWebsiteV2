@@ -57,7 +57,7 @@ Temperature sensor = DH122 temperature and humidity.
 
 ## When and Where
 
-May 13 (Monday) 2019
+5:30 PM - May 13 (Monday) 2019
 
 [TheMakers.org workshop - Y-102 Cairns TAFE](https://themakers.org/contact)
 
