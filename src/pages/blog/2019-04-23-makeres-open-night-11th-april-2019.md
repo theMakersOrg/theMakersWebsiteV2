@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Makers Open Night 11th April 2019
+title: Open Night - 11/04/2019
 date: 2019-04-11T12:42:00.000Z
 description: >-
   Easter Holiday fun for all the family! Lots of crafty stuff with laser cutter
