@@ -50,3 +50,9 @@ Temperature sensor = DH122 temperature and humidity.
 
 
 ![Closeups of the components](/img/img_20190424_111853-en-collage.jpg "The Line -up")
+
+## When and Where
+
+May 13 (Monday) 2019
+
+[TheMakers.org workshop - Y-102 Cairns TAFE](https://themakers.org/contact)
