@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Makers Open Night 7/3/2019
+title: Open Night - 7/3/2019 - IoT on ice and more laser cutting!
 date: 2019-03-18T11:22:44.453Z
 description: 'Open Night, pizza, laser cutting, unsuccessful  monitor repair, IoT on ice.'
 tags:
