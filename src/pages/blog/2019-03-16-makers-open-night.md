@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Makers Open Night 21-2-2019
+title: Open Night  - 21/2/2019 - Brass etching and laser cutting!
 date: 2019-02-21T11:00:00.000Z
 description: >-
   Open Night, brass etching via electrolysis, laser cut "Living hinges", 3D
