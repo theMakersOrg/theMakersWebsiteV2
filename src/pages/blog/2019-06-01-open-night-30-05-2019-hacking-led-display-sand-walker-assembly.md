@@ -14,8 +14,6 @@ tags:
   - 3d Printing
   - ''
 ---
-
-
 Well it started off as a quiet night.... However that was short lived and the night was another awesome one!
 
 A quick drop in by [Clinton Freeman](https://reprage.com/) a fellow maker and artist who visits a little less often than he used to after moving up the hill. Always great to see your smiling face.
@@ -24,13 +22,11 @@ A quick drop in by [Clinton Freeman](https://reprage.com/) a fellow maker and ar
 
 ## Tropical Steampunk LED and control hacking
 
-[Kurt](https://themakers.org/bios/KurtSchoenhoff/) has been busy hacking away at a recycled LED display, apparently from a decommissioned currency exchange display system. This relic from the past will be transported through time as it becomes a part of the tropical steam punk time machine. Featuring this Sunday at [Enviro Fiesta](https://www.cairns.qld.gov.au/community-environment/sustainability/ecofiesta). It will also be on show with some tweaks later in the year at the Tropical [Steam Punk gig](https://www.facebook.com/events/141359416791581/187409232186599/?notif_t=plan_mall_activity&notif_id=1559310587124641).
+[Kurt](https://themakers.org/bios/KurtSchoenhoff/) has been busy hacking away at a recycled LED display, apparently from a decommissioned currency exchange display system. This relic from the past will be transported through time as it becomes a part of the tropical steam punk time machine. Featuring this Sunday at [Enviro Fiesta](https://www.cairns.qld.gov.au/community-environment/sustainability/ecofiesta). It will also be on show with some tweaks later in the year at the Tropical [Steam Punk gig](https://www.facebook.com/events/141359416791581/187409232186599/?notif_t=plan_mall_activity¬if_id=1559310587124641).
 
 ![Tropical Steampunk Time Machine using recycled materials.](/img/img_20190530_201047-collage.jpg "Tropical Steampunk Time Machine using recycled materials.")
 
 For technical details on the LEDS (de-multiplexing and addressing) and code just contact [Kurt](https://themakers.org/bios/KurtSchoenhoff/).
-
-
 
 ## Sand Walker
 
